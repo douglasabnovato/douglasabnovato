@@ -1,6 +1,6 @@
 ### Douglas A. B. Novato - douglasabnovato
 
-Sou apaixonado pela rotina de desenvolver/ensinar/aprender programação.
+Sou apaixonado pela rotina de desenvolver/ensinar/aprender programação.<br/>
 Sou um Dev Front-End Web Jr :computer:
 
 - 🔭 Trabalhando no desenvolvimento de aplicações Front-End Web com ReactJS.
