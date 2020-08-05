@@ -22,7 +22,7 @@ Sou um Dev Front-End Web Jr :computer:
 - Com o que você pode ajudar quem estiver precisando
 - Como entrar com contato com você
 
-<br/> :email: &nbsp; Entre em contato comigo: [![Linkedin Badge](https://img.shields.io/badge/-douglasabnovato-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/tgmarinho/)](https://www.linkedin.com/in/tgmarinho/) 
+<br/> :email: &nbsp; Entre em contato comigo: [![Linkedin Badge](https://img.shields.io/badge/-douglasabnovato-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/douglasabnovato/)](https://www.linkedin.com/in/douglasabnovato/) 
 | 
 [![Gmail Badge](https://img.shields.io/badge/-douglasabnovato@gmail.com-c14438?style=flat-square&logo=Gmail&logoColor=white&link=mailto:douglasabnovato@gmail.com)](mailto:douglasabnovato@gmail.com) 
 
