@@ -1,10 +1,8 @@
 ### Douglas A. B. Novato - douglasabnovato
-Sou apaixonado pela rotina de desenvolver/ensinar/aprender programação.<br/>
-- :computer: Dominar a stack React [ Javascript / ReactJS / NodeJS ]
-- 💬 Curto tecnologia, game CS, Café, Correr, Cinema, Hack/Planner/Performance.
+- :computer: Dominar a stack React [ Javascript / ReactJS / React Native / NodeJS ]
+- 💬 Curto tecnologia, game CS, Café, Correr, Cinema, Hack/Planner/Performance, uma ótima conversa.
 - 👯 Posso te ajudar com o aprendizado para ser um dev com HTML, CSS, Javascript, Rotina.
 - 🤔 Procuro ajuda para ir para o próximo nível na minha carreira.
-- 💬 Pergunte-me sobre disciplina, organização, rotina.
 - 📫 How to reach me: @douglasabnovato
 - 😄 disciplinado e organizado
 - ⚡ Meu sobrenome é engraçado.
