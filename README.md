@@ -1,6 +1,6 @@
 ### Douglas A. B. Novato - douglasabnovato
 - :computer: Dominar a stack React [ Javascript / ReactJS / React Native / NodeJS ]
-- 💬 Curto tecnologia, game CS, Café, Correr, Cinema, Hack/Planner/Performance, uma ótima conversa.
+- 💬 Curto tecnologia, game CS, Café, Correr, Cinema, Hack/Planner/Performance, ler, nascer e por do sol, uma ótima conversa.
 - 👯 Posso te ajudar com o aprendizado com HTML, CSS, Javascript, Rotina.
 - 🤔 Procuro ajuda para ir para o próximo nível na minha carreira.
 - 📫 How to reach me: @douglasabnovato
