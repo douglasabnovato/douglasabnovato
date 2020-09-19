@@ -3,7 +3,7 @@
 ### Skills 💻
 HTML . CSS . Javascript <br/>
 React.js . Node.js . React Native <br/>
-Git . Kanban . Wireframe . Figma <br/>
+Git . Kanban . Figma <br/>
 
 ### Links :pencil2:
 [**deploy**](https://linktr.ee/douglasabnovato/) | [**medium**](https://medium.com/@douglasabnovato) | [**linkedIn**](https://www.linkedin.com/in/douglasabnovato) 
