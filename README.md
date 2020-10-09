@@ -2,7 +2,7 @@
 
 ### Skills 💻
 HTML . CSS . Javascript <br/>
-React.js . Node.js . React Native <br/>
+React.js . Node.js . SQL <br/>
 Git . Kanban . Figma <br/>
 
 ### Links :pencil2:
