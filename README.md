@@ -2,7 +2,7 @@
 
 ### Skills 💻
 HTML . CSS . Javascript <br/>
-React.js . Node.js . SQL <br/>
+React.js . Node.js . SQLite|MongoDB <br/>
 Git . Deploy . Kanban . Figma <br/>
 
 ### Links :pencil2:
