@@ -1,4 +1,4 @@
-## :city_sunset: Developer Frontend Web
+## :city_sunset: Developer Front End Web
 
 ### Skills 💻
 HTML . CSS . Javascript <br/>
