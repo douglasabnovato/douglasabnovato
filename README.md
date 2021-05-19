@@ -5,7 +5,7 @@ HTML . CSS . Javascript <br/>
 React.js [ hooks redux typescript ] <br/>
 Node.js . SQLite <br/>
 Git . Github . Deploy  <br/>
-Scrum . Kanban <br/>
+Scrum . Kanban . Jira <br/>
 Wireframe . Figma <br/>
 
 ### @douglasabnovato :pencil2:
