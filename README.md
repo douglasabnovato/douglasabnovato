@@ -9,4 +9,4 @@ Scrum . Kanban . Jira <br/>
 Wireframe . Figma <br/>
 
 ### @douglasabnovato :pencil2:
-[**deploy**](https://linktr.ee/douglasabnovato/) | [**medium**](https://medium.com/@douglasabnovato) | [**linkedIn**](https://www.linkedin.com/in/douglasabnovato) 
+[**deploy**](https://linktr.ee/douglasabnovato/) | [**artigos**](https://medium.com/@douglasabnovato) | [**história**](https://www.linkedin.com/in/douglasabnovato) 
