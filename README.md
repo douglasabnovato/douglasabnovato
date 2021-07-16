@@ -6,7 +6,7 @@ React.js [ hooks redux typescript ] <br/>
 Node.js . SQLite <br/>
 Git . Github . Deploy  <br/>
 Scrum . Kanban . Jira <br/>
-Wireframe . Figma <br/>
+Wireframe . Figma . UX <br/>
 
 ### @douglasabnovato :pencil2:
 [**deploy**](https://linktr.ee/douglasabnovato/) | [**medium**](https://medium.com/@douglasabnovato) | [**linkedIn**](https://www.linkedin.com/in/douglasabnovato) 
