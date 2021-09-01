@@ -4,7 +4,7 @@
 HTML . CSS . Javascript <br/>
 React.js [ hooks redux typescript ] <br/>
 Node.js . SQLite . MongoDB <br/>
-Git . Github . Deploy  <br/>
+Git . GitFlow . Github . Deploy  <br/>
 Scrum . Kanban . Jira <br/>
 Wireframe . Figma . UX <br/>
 
