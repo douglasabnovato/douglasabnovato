@@ -1,7 +1,7 @@
 ## :city_sunset: Developer Front End Web
 
 ### Skills 💻
-HTML . CSS . Javascript <br/>
+HTML . CSS . Javascript . EJS <br/>
 React.js [ hooks redux typescript ] <br/>
 Node.js . SQLite . MongoDB <br/>
 Git . GitFlow . Github  . Github Desktop . Deploy  <br/>
