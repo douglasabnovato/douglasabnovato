@@ -4,10 +4,11 @@
 HTML . CSS . Javascript . EJS <br/>
 React.js [ hooks redux typescript ] <br/>
 Node.js <br/> 
-Git . GitFlow . Github  . Github Desktop . Deploy  <br/>
+Git . Github  . Github Desktop . GitFlow . Deploy  <br/>
 Scrum . Kanban . Jira <br/>
 
 ### Tools 💻
+VSCode <br/>
 Postman . Insomnia <br/>
 SQL . SQLite . MongoDB . MariaDB <br/> 
 SQL Server . MySQL . Postgres . Postbird . pgAdmin . Beekeeper <br/>
