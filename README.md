@@ -2,7 +2,7 @@
 
 ### Skills 💻
 HTML . CSS . Javascript . EJS <br/>
-React.js [ hooks redux typescript ]
+React.js [ hooks redux typescript ] <br/>
 Node.js <br/>
 Postman . Insomnia <br/>
 SQL . SQLite . MongoDB . MariaDB <br/> 
