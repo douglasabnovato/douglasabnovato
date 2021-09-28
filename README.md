@@ -2,8 +2,8 @@
 
 ### Skills 💻
 HTML . CSS . Javascript . EJS <br/>
-React.js [ hooks redux typescript ] <br/>
-Node.js . SQL . SQLite . MongoDB <br/>
+React.js [ hooks redux typescript ] . Node.js <br/>
+SQL . SQLite . MongoDB <br/>
 Git . GitFlow . Github  . Github Desktop . Deploy  <br/>
 Scrum . Kanban . Jira <br/>
 Wireframe . Figma . UX <br/>
