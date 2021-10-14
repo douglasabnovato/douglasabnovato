@@ -12,13 +12,13 @@
 [![HTML5](http://img.shields.io/badge/-HTML5-eee?style=flat-square&logo=html5&logoColor=E34F26)](https://developer.mozilla.org/pt-BR/docs/Web/HTML)
 [![CSS3](https://img.shields.io/badge/-CSS3-eee?style=flat-square&logo=css3&logoColor=0088cc)](https://www.w3schools.com/css/)
 [![JavaScript](https://img.shields.io/badge/-JavaScript-eee?style=flat-square&logo=javascript&logoColor=DD9C25)](https://www.javascript.com/)
-[![EJS](https://img.shields.io/badge/-EJS-eee?style=flat-square&logo=EJS&logoColor=DD9C25)](https://ejs.co/) <br/> 
+[![EJS](https://img.shields.io/badge/-EJS-eee?style=flat-square&logo=EJS&logoColor=DD9C25)](https://ejs.co/) 
+[![styled-components](https://img.shields.io/badge/-styled%20components-eee?style=flat-square&logo=styled-components&logoColor=styled-components)](https://styled-components.com/docs) <br/> 
 
 [![jQuery](https://img.shields.io/badge/-jQuery-eee?style=flat-square&logo=jquery&logoColor=blue)](https://jquery.com/)
 [![Bootstrap](http://img.shields.io/badge/-Bootstrap-eee?style=flat-square&logo=bootstrap&logoColor=563D7C)](https://getbootstrap.com/)
 [![Material UI](https://img.shields.io/badge/-Material_UI-eee?style=flat-square&logo=material-ui&logoColor=blue)](https://material-ui.com/pt/)
-[![Semantic UI](https://img.shields.io/badge/-Semantic_UI-eee?style=flat-square&logo=react&logoColor=35BDB2)](https://semantic-ui.com/)
-[![styled-components](https://img.shields.io/badge/-styled%20components-eee?style=flat-square&logo=styled-components&logoColor=styled-components)](https://styled-components.com/docs) <br/> 
+[![Semantic UI](https://img.shields.io/badge/-Semantic_UI-eee?style=flat-square&logo=react&logoColor=35BDB2)](https://semantic-ui.com/)<br/> 
 
 [![React.js](https://img.shields.io/badge/-React-eee?style=flat-square&logo=react&logoColor=0088cc)](https://reactjs.org/)
 [![Redux](https://img.shields.io/badge/-Redux-eee?style=flat-square&logo=redux&logoColor=764ABC)](https://react-redux.js.org/) 
