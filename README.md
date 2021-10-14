@@ -4,7 +4,8 @@
 HTML . CSS . Javascript . EJS <br/>
 React.js [ hooks redux typescript ] <br/>
 Node.js <br/> 
-Git . Github  . Github Desktop . GitFlow . Deploy  <br/>
+Git . Github  . Github Desktop . GitFlow <br/>
+Deploy  <br/>
 Scrum . Kanban . Jira <br/>
 
 ### Tools 💻
