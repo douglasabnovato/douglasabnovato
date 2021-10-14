@@ -46,8 +46,9 @@
 [![MongoDB](https://img.shields.io/badge/-MongoDB-eee?style=flat-square&logo=mongodb)](https://www.mongodb.com/)<br />
 
 - API : <br/>
+
 [![Postman](https://img.shields.io/badge/-Postman-eee?style=flat-square&logo=Postman)](https://www.postman.com/)
-[![Insomnia](https://img.shields.io/badge/-Insomnia-eee?style=flat-square&logo=Insomnia)](https://insomnia.rest/)<br/>
+[![Insomnia](https://img.shields.io/badge/-Insomnia-eee?style=flat-square&logo=Insomnia)](https://insomnia.rest/) <br/>
 
 - Versionamento : <br />
 
