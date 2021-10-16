@@ -46,9 +46,7 @@
 [![Insomnia](https://img.shields.io/badge/-Insomnia-eee?style=flat-square&logo=Insomnia)](https://insomnia.rest/) 
 
 - Versionamento : [![GitFlow](https://img.shields.io/badge/-GitFlow-eee?style=flat-square&logo=GitFlow)](https://git-scm.com/)
-[![Github](https://img.shields.io/badge/-GitHub-eee?style=flat-square&logo=github&logoColor=000000)](https://github.com/)  
-[![Git Bash](https://img.shields.io/badge/-GitBash-eee?style=flat-square&logo=GitBash)](https://git-scm.com/) 
-[![Github Desktop](https://img.shields.io/badge/-GithubDesktop-eee?style=flat-square&logo=GithubDesktop&logoColor=000000)](https://desktop.github.com/)  
+[![Github](https://img.shields.io/badge/-GitHub-eee?style=flat-square&logo=github&logoColor=000000)](https://github.com/)[![Git Bash](https://img.shields.io/badge/-GitBash-eee?style=flat-square&logo=GitBash)](https://git-scm.com/) [![Github Desktop](https://img.shields.io/badge/-GithubDesktop-eee?style=flat-square&logo=GithubDesktop&logoColor=000000)](https://desktop.github.com/)  
  
 - Projetos : [![Scrum](http://img.shields.io/badge/-Scrum-eee?style=flat-square&logo=Scrum&logoColor=E34F26)](https://www.scrum.org/forum/scrum-forum/14437/agile-and-documentation)
 [![Jira](http://img.shields.io/badge/-Jira-eee?style=flat-square&logo=Jira&logoColor=E34F26)](https://www.atlassian.com/try/cloud/signup?bundle=jira-software&edition=free)<br/>
