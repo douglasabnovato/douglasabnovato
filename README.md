@@ -17,7 +17,7 @@
 [![Git](https://img.shields.io/badge/-Git-eee?style=flat-square&logo=git)](https://git-scm.com/)
 [![Kanban](http://img.shields.io/badge/-Kanban-eee?style=flat-square&logo=Kanban&logoColor=E34F26)](https://kanbanflow.com/)
 
-### Tools 💻
+### Know 💻
 
 - Frontend : [![EJS](https://img.shields.io/badge/-EJS-eee?style=flat-square&logo=EJS&logoColor=DD9C25)](https://ejs.co/) 
 [![styled-components](https://img.shields.io/badge/-styled%20components-eee?style=flat-square&logo=styled-components&logoColor=styled-components)](https://styled-components.com/docs)
