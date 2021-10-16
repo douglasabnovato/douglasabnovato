@@ -29,7 +29,7 @@
 
 - Backend : [![Node.js](https://img.shields.io/badge/-Nodejs-eee?style=flat-square&logo=Node.js)](https://nodejs.org)
 [![Express](https://img.shields.io/badge/-Express-eee?style=flat-square&logo=express&logoColor=green)](https://expressjs.com/)
-[![Mongoose](https://img.shields.io/badge/-Mongoose-eee?style=flat-square&logo=mongodb&logoColor=red)](https://mongoosejs.com/)  
+[![Mongoose](https://img.shields.io/badge/-Mongoose-eee?style=flat-square&logo=mongodb&logoColor=red)](https://mongoosejs.com/)
 [![Nodemon](https://img.shields.io/badge/-Nodemon-eee?style=flat-square&logo=nodemon)](https://nodemon.io/)
 
 - Banco de Dados : [![SQL Server](https://img.shields.io/badge/-SQLServer-eee?style=flat-square&logo=SQLServer&logoColor=black)](https://docs.microsoft.com/en-us/sql/sql-server/?view=sql-server-ver15)
