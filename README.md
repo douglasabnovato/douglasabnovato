@@ -64,4 +64,4 @@
 - UX e UI : [![balsamiq](https://img.shields.io/badge/-balsamiq-eee?style=flat-square&logo=balsamiq)](https://balsamiq.com/)
 [![Figma](https://img.shields.io/badge/-Figma-eee?style=flat-square&logo=Figma)](https://www.figma.com/)<br/>
  
-Made with :heart: by <a href="https://www.linkedin.com/in/douglasabnovato/" target="_blank">Douglas A. B. Novato - @douglasabnovato</a> :pencil2:
+Made with :heart: by <a href="https://linktr.ee/douglasabnovato" target="_blank">Douglas A. B. Novato - @douglasabnovato</a> :pencil2:
