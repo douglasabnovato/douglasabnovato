@@ -1,8 +1,5 @@
 
-[![Medium](https://img.shields.io/badge/-Medium-grey?style=flat&logo=Medium&logoColor=medium&link=https://medium.com/@douglasabnovato)](https://medium.com/@douglasabnovato) : Alguns dos artigos que escrevi. Confere lá.<br />
-[![Linktree](https://img.shields.io/badge/-Linktree-grey?style=flat&logo=Linktree&logoColor=linktree&link=https://linktr.ee/douglasabnovato)](https://linktr.ee/douglasabnovato) : Alguns dos projetos memo. Confere lá. <br />
-[![Linkedin](https://img.shields.io/badge/-LinkedIn-grey?style=flat&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/douglasabnovato)](https://www.linkedin.com/in/douglasabnovato)
-[![Instagram](https://img.shields.io/badge/-Instagram-grey?style=flat&logo=Instagram&logoColor=instagram&link=https://www.instagram.com/douglasabnovato)](https://www.instagram.com/douglasabnovato) 
+
 
 ## :city_sunset: Developer Frontend Web
 
@@ -84,9 +81,11 @@ Made with :heart: by <a href="https://linktr.ee/douglasabnovato" target="_blank"
   ##
  
 <div> 
-  <a href="https://www.youtube.com/channel/UChakOFZ7emqTWF1RjV6uifg" target="_blank"><img src="https://img.shields.io/badge/YouTube-FF0000?style=for-the-badge&logo=youtube&logoColor=white" target="_blank"></a>
+ <a href="https://linktree.com/douglasabnovato" target="_blank"><img src="https://img.shields.io/badge/-Linktree-green?style=for-the-badge&logo=minktree&logoColor=white" target="_blank"></a>
+ <a href="https://douglasabnovato.medium.com/" target="_blank"><img src="https://img.shields.io/badge/-Medium-%23333?style=for-the-badge&logo=medium&logoColor=white" target="_blank"></a>
   <a href="https://instagram.com/douglasabnovato" target="_blank"><img src="https://img.shields.io/badge/-Instagram-%23E4405F?style=for-the-badge&logo=instagram&logoColor=white" target="_blank"></a>
  <a href="https://www.linkedin.com/in/douglasabnovato" target="_blank"><img src="https://img.shields.io/badge/-LinkedIn-%230077B5?style=for-the-badge&logo=linkedin&logoColor=white" target="_blank"></a>
+ <a href="https://www.youtube.com/channel/UChakOFZ7emqTWF1RjV6uifg" target="_blank"><img src="https://img.shields.io/badge/YouTube-FF0000?style=for-the-badge&logo=youtube&logoColor=white" target="_blank"></a>
  	<a href="https://www.twitch.tv/douglasabnovato" target="_blank"><img src="https://img.shields.io/badge/Twitch-9146FF?style=for-the-badge&logo=twitch&logoColor=white" target="_blank"></a>
  <a href="https://discord.gg/pDbY76q8Qf" target="_blank"><img src="https://img.shields.io/badge/Discord-7289DA?style=for-the-badge&logo=discord&logoColor=white" target="_blank"></a> 
   <a href = "mailto:douglasabnovato@gmail.com"><img src="https://img.shields.io/badge/-Gmail-%23333?style=for-the-badge&logo=gmail&logoColor=white" target="_blank"></a>
