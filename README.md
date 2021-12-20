@@ -15,7 +15,7 @@
   <img align="center" alt="douglasabnovato-Ts" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/typescript/typescript-plain.svg"> 
   <img align="center" alt="douglasabnovato-React" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original.svg"> 
   <img align="center" alt="douglasabnovato-Redux" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/redux/redux-original.svg">  
-</div> 
+</div>  
   
 <div style="display: inline_block"><br>
   <img align="center" alt="douglasabnovato-Windows" height="30" width="75" src="https://img.shields.io/badge/Windows-0078D6?style=for-the-badge&logo=windows&logoColor=white">
@@ -34,9 +34,6 @@
   <img align="center" alt="douglasabnovato-SQLite" height="30" width="75" src="https://img.shields.io/badge/SQLite-07405E?style=for-the-badge&logo=sqlite&logoColor=white"> 
   <img align="center" alt="douglasabnovato-SQL_Server" height="30" width="75" src="https://img.shields.io/badge/Microsoft_SQL_Server-CC2927?style=for-the-badge&logo=microsoft-sql-server&logoColor=white">
 </div> 
-  
-##
- 
 <div> 
  <a href="https://linktree.com/douglasabnovato" target="_blank"><img src="https://img.shields.io/badge/-Linktree-green?style=for-the-badge&logo=minktree&logoColor=white" target="_blank"></a>
  <a href="https://douglasabnovato.medium.com/" target="_blank"><img src="https://img.shields.io/badge/-Medium-%23333?style=for-the-badge&logo=medium&logoColor=white" target="_blank"></a>
