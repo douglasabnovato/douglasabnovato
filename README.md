@@ -34,7 +34,7 @@
   <img align="center" alt="douglasabnovato-SQLite" height="30" width="75" src="https://img.shields.io/badge/SQLite-07405E?style=for-the-badge&logo=sqlite&logoColor=white"> 
   <img align="center" alt="douglasabnovato-SQL_Server" height="30" width="75" src="https://img.shields.io/badge/Microsoft_SQL_Server-CC2927?style=for-the-badge&logo=microsoft-sql-server&logoColor=white">
 </div> 
-  
+  ##
 <div> 
  <a href="https://linktree.com/douglasabnovato" target="_blank"><img src="https://img.shields.io/badge/-Linktree-green?style=for-the-badge&logo=minktree&logoColor=white" target="_blank"></a>
  <a href="https://douglasabnovato.medium.com/" target="_blank"><img src="https://img.shields.io/badge/-Medium-%23333?style=for-the-badge&logo=medium&logoColor=white" target="_blank"></a>
