@@ -16,10 +16,10 @@
 
 #### Habilidades 
 <div align="center" style="display: inline_block">
-  <img align="center" alt="logo do HTML" height="30" width="75" src="https://img.shields.io/badge/html-f16529?style=for-the-badge&logo=html&logoColor=white">
-  <img align="center" alt="logo do CSS" height="30" width="75" src="https://img.shields.io/badge/css-0096dc?style=for-the-badge&logo=css&logoColor=white">
+  <img align="center" alt="logo do HTML" height="30" width="75" src="https://img.shields.io/badge/html5-f16529?style=for-the-badge&logo=html5&logoColor=white">
+  <img align="center" alt="logo do CSS" height="30" width="75" src="https://img.shields.io/badge/css3-0096dc?style=for-the-badge&logo=css3&logoColor=white">
   <img align="center" alt="logo do Javascript" height="30" width="75" src="https://img.shields.io/badge/javascript-f7df1e?style=for-the-badge&logo=javascript&logoColor=white">
-  <img align="center" alt="logo do React" height="30" width="75" src="https://img.shields.io/badge/redux-7649bb?style=for-the-badge&logo=redux&logoColor=white"> 
+  <img align="center" alt="logo do React" height="30" width="75" src="https://img.shields.io/badge/react-61dafb?style=for-the-badge&logo=react&logoColor=white"> 
 </div>
   
 ---
