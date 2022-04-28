@@ -1,12 +1,4 @@
-### Construindo código, pedindo comida e ouvindo música
-  
----
-
-#### Diversão 
-<div align="center" style="display: inline_block">
-  <img alt="logo do iFood" height="35" width="80" src="https://img.shields.io/badge/iFood-EA1D2C?style=for-the-badge&logo=ifood&logoColor=white">
-  <img alt="logo do spotify" height="35" width="80" src="https://img.shields.io/badge/Spotify-1ED760?&style=for-the-badge&logo=spotify&logoColor=white">
-</div>
+### Construindo código, pedindo comida e ouvindo música >> <img alt="logo do iFood" height="35" width="80" src="https://img.shields.io/badge/iFood-EA1D2C?style=for-the-badge&logo=ifood&logoColor=white"><img alt="logo do spotify" height="35" width="80" src="https://img.shields.io/badge/Spotify-1ED760?&style=for-the-badge&logo=spotify&logoColor=white">
   
 ---
 
