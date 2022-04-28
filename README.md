@@ -1,9 +1,14 @@
 <div align="center">
-  <a href="https://github.com/douglasabnovato">
-  <img height="180em" src="https://github-readme-stats.vercel.app/api?username=douglasabnovato&show_icons=true&theme=dracula&include_all_commits=true&count_private=true"/>
-  <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=douglasabnovato&layout=compact&langs_count=7&theme=dracula"/> 
+  <a href="https://linktr.ee/douglasabnovato">
+   
+    <img height="180em" src="https://github-readme-stats.vercel.app/api?username=douglasabnovato&show_icons=true&theme=dracula&include_all_commits=true&count_private=true">
+    
+   <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=douglasabnovato&layout=compact&langs_count=7&theme=dracula"> 
+    
    <img alt="douglasabnovato-iFood" height="35" width="80" src="https://img.shields.io/badge/iFood-EA1D2C?style=for-the-badge&logo=ifood&logoColor=white"> 
-   <img alt="douglasabnovato-spotify" height="35" width="80" src="https://img.shields.io/badge/Spotify-1ED760?&style=for-the-badge&logo=spotify&logoColor=white"> 
+   <img alt="douglasabnovato-spotify" height="35" width="80" src="https://img.shields.io/badge/Spotify-1ED760?&style=for-the-badge&logo=spotify&logoColor=white">
+  
+  </a>
 </div>
   
   ##
