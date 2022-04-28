@@ -1,10 +1,14 @@
 ## Construindo código, pedindo comida e ouvindo música 
 <div style="display: inline_block">
-  <img alt="logo do iFood" height="35" width="80" src="https://img.shields.io/badge/iFood-EA1D2C?style=for-the-badge&logo=ifood&logoColor=white"><img alt="logo do spotify" height="35" width="80" src="https://img.shields.io/badge/Spotify-1ED760?&style=for-the-badge&logo=spotify&logoColor=white">
+  <img alt="logo do iFood" height="35" width="80" src="https://img.shields.io/badge/iFood-EA1D2C?style=for-the-badge&logo=ifood&logoColor=white">
+  <img alt="logo do spotify" height="35" width="80" src="https://img.shields.io/badge/Spotify-1ED760?&style=for-the-badge&logo=spotify&logoColor=white">
 </div>
+  
+---
 
 <div align="center">
-<img alt="quadro de estatísticas desse perfil"  height="180em" src="https://github-readme-stats.vercel.app/api?username=douglasabnovato&show_icons=true&theme=dracula&include_all_commits=true&count_private=true"><img alt="quadro de linguagens mais usadas desse perfil"  height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=douglasabnovato&layout=compact&langs_count=7&theme=dracula">
+  <img alt="quadro de estatísticas desse perfil"  height="180em" src="https://github-readme-stats.vercel.app/api?username=douglasabnovato&show_icons=true&theme=dracula&include_all_commits=true&count_private=true">
+  <img alt="quadro de linguagens mais usadas desse perfil"  height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=douglasabnovato&layout=compact&langs_count=7&theme=dracula">
 </div>
   
 ---
@@ -21,6 +25,8 @@
 ---
   
 <div style="display: inline_block"><br>
+  <img align="center" alt="logo do Redux" height="30" width="75" src="https://img.shields.io/badge/redux-7649bb?style=for-the-badge&logo=redux&logoColor=white">
+  <img align="center" alt="logo do Typescript" height="30" width="75" src="https://img.shields.io/badge/typescript-3178c6?style=for-the-badge&logo=typescript&logoColor=white">
   <img align="center" alt="logo do styled components" height="30" width="75" src="https://img.shields.io/badge/styled--components-DB7093?style=for-the-badge&logo=styled-components&logoColor=white">
   <img align="center" alt="logo do Node" height="30" width="75" src="https://img.shields.io/badge/Node.js-43853D?style=for-the-badge&logo=node.js&logoColor=white">  
   <img align="center" alt="logo do Express" height="30" width="75" src="https://img.shields.io/badge/Express.js-404D59?style=for-the-badge">
