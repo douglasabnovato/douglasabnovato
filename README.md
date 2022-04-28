@@ -14,7 +14,7 @@
   
 ---
   
-<div style="display: inline_block"><br>
+<div style="display: inline_block">
   <img align="center" alt="logo do HTML" height="30" width="75" src="https://img.shields.io/badge/html-f16529?style=for-the-badge&logo=html&logoColor=white">
   <img align="center" alt="logo do CSS" height="30" width="75" src="https://img.shields.io/badge/css-0096dc?style=for-the-badge&logo=css&logoColor=white">
   <img align="center" alt="logo do Javascript" height="30" width="75" src="https://img.shields.io/badge/redux-7649bb?style=for-the-badge&logo=redux&logoColor=white">
@@ -23,7 +23,7 @@
   
 ---
   
-<div style="display: inline_block"><br>
+<div align="center" style="display: inline_block">
   <img align="center" alt="logo do Redux" height="30" width="75" src="https://img.shields.io/badge/redux-7649bb?style=for-the-badge&logo=redux&logoColor=white">
   <img align="center" alt="logo do Typescript" height="30" width="75" src="https://img.shields.io/badge/typescript-3178c6?style=for-the-badge&logo=typescript&logoColor=white">
   <img align="center" alt="logo do styled components" height="30" width="75" src="https://img.shields.io/badge/styled--components-DB7093?style=for-the-badge&logo=styled-components&logoColor=white">
