@@ -32,7 +32,8 @@
     <img align="center" alt="logo do styled components" height="30" width="75" src="https://img.shields.io/badge/styled--components-DB7093?style=for-the-badge&logo=styled-components&logoColor=white">
     <img align="center" alt="logo do Node" height="30" width="75" src="https://img.shields.io/badge/Node.js-43853D?style=for-the-badge&logo=node.js&logoColor=white">  
     <img align="center" alt="logo do Express" height="30" width="75" src="https://img.shields.io/badge/Express.js-404D59?style=for-the-badge">
-    </div>
+  </div>
+  
   <div align="center" style="display: inline_block"> 
     <img align="center" alt="logo do MySQL" height="30" width="75" src="https://img.shields.io/badge/MySQL-00000F?style=for-the-badge&logo=mysql&logoColor=white"> 
     <img align="center" alt="douglasabnovato-MongoDB" height="30" width="75" src="https://img.shields.io/badge/MongoDB-4EA94B?style=for-the-badge&logo=mongodb&logoColor=white"> 
@@ -43,22 +44,29 @@
 </div>
 
 ---
-  
+
+#### Registrando a trajetória   
 <div>  
-  <a href="https://linktree.com/douglasabnovato" target="_blank"><img src="https://img.shields.io/badge/-Linktree-green?style=for-the-badge&logo=minktree&logoColor=white"></a>
-  <a href="https://douglasabnovato.medium.com/" target="_blank"><img src="https://img.shields.io/badge/-Medium-%23333?style=for-the-badge&logo=medium&logoColor=white"></a>
-  <a href="https://www.linkedin.com/in/douglasabnovato" target="_blank"><img src="https://img.shields.io/badge/-LinkedIn-%230077B5?style=for-the-badge&logo=linkedin&logoColor=white"></a>
+  <a href="https://linktree.com/douglasabnovato" target="_blank"><img src="https://img.shields.io/badge/-linktree-green?style=for-the-badge&logo=linktree&logoColor=white"></a>
+  <a href="https://douglasabnovato.medium.com/" target="_blank"><img src="https://img.shields.io/badge/-medium-%23333?style=for-the-badge&logo=medium&logoColor=white"></a>
+  <a href="https://www.linkedin.com/in/douglasabnovato" target="_blank"><img src="https://img.shields.io/badge/-linkedIn-%230077B5?style=for-the-badge&logo=linkedin&logoColor=white"></a>
+</div>
 
+---
+
+#### Redes Sociais   
+<div>  
   <a href="https://instagram.com/douglasabnovato" target="_blank"><img src="https://img.shields.io/badge/-Instagram-%23E4405F?style=for-the-badge&logo=instagram&logoColor=white"></a>
-  <a href="https://twitter.com/douglasabnovato" target="_blank"><img src="https://img.shields.io/badge/-twitter-blue?style=for-the-badge&logo=twitter&logoColor=white"></a>
   <a href="https://discord.com/channels/douglasabnovato#8625" target="_blank"><img src="https://img.shields.io/badge/Discord-7289DA?style=for-the-badge&logo=discord&logoColor=white"></a>
-  <a href="https://facebook.com/douglasabnovato" target="_blank"><img src="https://img.shields.io/badge/-Facebook-blue?style=for-the-badge&logo=facebook&logoColor=white"></a>
-  <a href="https://www.youtube.com/channel/UChakOFZ7emqTWF1RjV6uifg" target="_blank"><img src="https://img.shields.io/badge/YouTube-FF0000?style=for-the-badge&logo=youtube&logoColor=white"></a>
-  <a href="https://www.twitch.tv/douglasabnovato"><img src="https://img.shields.io/badge/Twitch-9146FF?style=for-the-badge&logo=twitch&logoColor=white"></a>
+  <a href="https://twitter.com/douglasabnovato" target="_blank"><img src="https://img.shields.io/badge/-twitter-blue?style=for-the-badge&logo=twitter&logoColor=white"></a>
   <a href = "mailto:douglasabnovato@gmail.com"><img src="https://img.shields.io/badge/-Gmail-%23333?style=for-the-badge&logo=gmail&logoColor=white"></a>
+</div>
+  
+---
 
-  ##
- 
+#### Nessa empolgação 
+<div> 
+  
   ![Snake animation](https://github.com/douglasabnovato/douglasabnovato/blob/output/github-contribution-grid-snake.svg)
  
 </div>
