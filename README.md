@@ -24,7 +24,7 @@
   
 ---
 
-#### Habilidades 
+#### Aperfeiçoando 
 <div align="center" style="display: inline_block">
   <div align="center" style="display: inline_block"> 
     <img align="center" alt="logo do Redux" height="30" width="75" src="https://img.shields.io/badge/redux-7649bb?style=for-the-badge&logo=redux&logoColor=white">
