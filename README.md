@@ -46,7 +46,7 @@
 ---
 
 #### Registrando a trajetória   
-<div>  
+<div align="center">  
   <a href="https://linktree.com/douglasabnovato" target="_blank"><img src="https://img.shields.io/badge/-linktree-green?style=for-the-badge&logo=linktree&logoColor=white"></a>
   <a href="https://douglasabnovato.medium.com/" target="_blank"><img src="https://img.shields.io/badge/-medium-%23333?style=for-the-badge&logo=medium&logoColor=white"></a>
   <a href="https://www.linkedin.com/in/douglasabnovato" target="_blank"><img src="https://img.shields.io/badge/-linkedIn-%230077B5?style=for-the-badge&logo=linkedin&logoColor=white"></a>
@@ -55,7 +55,7 @@
 ---
 
 #### Redes Sociais   
-<div>  
+<div align="center">  
   <a href="https://instagram.com/douglasabnovato" target="_blank"><img src="https://img.shields.io/badge/-Instagram-%23E4405F?style=for-the-badge&logo=instagram&logoColor=white"></a>
   <a href="https://discord.com/channels/douglasabnovato#8625" target="_blank"><img src="https://img.shields.io/badge/Discord-7289DA?style=for-the-badge&logo=discord&logoColor=white"></a>
   <a href="https://twitter.com/douglasabnovato" target="_blank"><img src="https://img.shields.io/badge/-twitter-blue?style=for-the-badge&logo=twitter&logoColor=white"></a>
