@@ -1,4 +1,4 @@
-### Construindo código ouvindo música e pedindo comida
+### Construindo código, tomando café, ouvindo música e pedindo comida.
 <div align="center">
   <img alt="logo do spotify" height="35" width="80" src="https://img.shields.io/badge/Spotify-1ED760?&style=for-the-badge&logo=spotify&logoColor=white"> <img alt="logo do iFood" height="35" width="80" src="https://img.shields.io/badge/iFood-EA1D2C?style=for-the-badge&logo=ifood&logoColor=white"> 
 </div>
