@@ -71,7 +71,9 @@
  
 <div> 
   #### Nessa empolgação 
+  
   ![Snake animation](https://github.com/douglasabnovato/douglasabnovato/blob/output/github-contribution-grid-snake.svg)
+  
 </div>
 
 </div>
