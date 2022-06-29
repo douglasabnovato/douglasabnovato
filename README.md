@@ -11,6 +11,7 @@
 </div>
   
 ---
+<div align="center" style="display: inline_block">
 
 #### Habilidades 
 <div align="center" style="display: inline_block">
@@ -19,8 +20,6 @@
   <img align="center" alt="logo do Javascript" height="30" width="75" src="https://img.shields.io/badge/javascript-f7df1e?style=for-the-badge&logo=javascript&logoColor=white">
   <img align="center" alt="logo do React" height="30" width="75" src="https://img.shields.io/badge/react-61dafb?style=for-the-badge&logo=react&logoColor=white"> 
 </div>
-  
----
 
 #### Aperfeiçoando 
 <div align="center" style="display: inline_block">
@@ -39,6 +38,8 @@
     <img align="center" alt="douglasabnovato-Netlify" height="30" width="75" src="https://img.shields.io/badge/Netlify-00C7B7?style=for-the-badge&logo=netlify&logoColor=white"> 
     <img align="center" alt="douglasabnovato-Heroku" height="30" width="75" src="https://img.shields.io/badge/Heroku-430098?style=for-the-badge&logo=heroku&logoColor=white">
   </div>
+</div>
+
 </div>
 
 ---
