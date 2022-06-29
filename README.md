@@ -70,6 +70,7 @@
 <div align="center" style="display: inline_block">
  
 <div> 
+  
   #### Nessa empolgação 
   
   ![Snake animation](https://github.com/douglasabnovato/douglasabnovato/blob/output/github-contribution-grid-snake.svg)
