@@ -67,10 +67,11 @@
 </div>
   
 ---
-
+<div align="center" style="display: inline_block">
 #### Nessa empolgação 
 <div> 
   
   ![Snake animation](https://github.com/douglasabnovato/douglasabnovato/blob/output/github-contribution-grid-snake.svg)
  
+</div>
 </div>
