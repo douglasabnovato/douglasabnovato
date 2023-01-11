@@ -35,7 +35,7 @@
 
 #### Redes Sociais: <a href="https://instagram.com/douglasabnovato" target="_blank"><img src="https://img.shields.io/badge/-Instagram-%23E4405F?style=for-the-badge&logo=instagram&logoColor=white" target="_blank"></a> <a href="https://twitter.com/douglasabnovato" target="_blank"><img src="https://img.shields.io/badge/-twitter-blue?style=for-the-badge&logo=twitter&logoColor=white" target="_blank"></a> <a href = "mailto:douglasabnovato@gmail.com" target="_blank"><img src="https://img.shields.io/badge/-Gmail-%23333?style=for-the-badge&logo=gmail&logoColor=white" target="_blank"></a>
   
-#### Comunidades: <a href="https://discord.com/channels/douglasabnovato#8625" target="_blank"><img src="https://img.shields.io/badge/Discord-7289DA?style=for-the-badge&logo=discord&logoColor=white" target="_blank"></a> <a href="https://discord.com/channels/douglasabnovato#8625" target="_blank"><img src="https://img.shields.io/badge/Meetup-7289DA?style=for-the-badge&logo=meetup&logoColor=white" target="_blank"></a> 
+#### Comunidades: <a href="https://discord.com/channels/douglasabnovato#8625" target="_blank"><img src="https://img.shields.io/badge/Discord-7289DA?style=for-the-badge&logo=discord&logoColor=white" target="_blank"></a> <a href="https://discord.com/channels/douglasabnovato#8625" target="_blank"><img src="https://img.shields.io/badge/Meetup-F05944?style=for-the-badge&logo=meetup&logoColor=white" target="_blank"></a> 
     
 </div>
   
