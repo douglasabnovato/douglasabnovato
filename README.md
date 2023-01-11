@@ -1,6 +1,6 @@
-<div align="center" style="display: inline_block">
-
 #### Escrevendo código tomando café, ouvindo música e pedindo comida: <div> <img alt="logo do Starbucks" height="35" width="110" src="https://img.shields.io/badge/starbucks-007042?style=for-the-badge&logo=starbucks&logoColor=white"> <img alt="logo do spotify" height="35" width="80" src="https://img.shields.io/badge/Spotify-1ED760?&style=for-the-badge&logo=spotify&logoColor=white"> <img alt="logo do iFood" height="35" width="80" src="https://img.shields.io/badge/iFood-EA1D2C?style=for-the-badge&logo=ifood&logoColor=white"> </div>
+
+<div align="center" style="display: inline_block">
 
 <div align="center">
   <img alt="quadro de estatísticas desse perfil"  height="180em" src="https://github-readme-stats.vercel.app/api?username=douglasabnovato&show_icons=true&theme=dracula&include_all_commits=true&count_private=true">
