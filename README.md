@@ -1,3 +1,7 @@
+# Olá, eu sou o Douglas 👋 
+
+### Desenvolvedor Fullstack focado em Soluções para ecossistemas que são pontes entre quem tem produtos e quem precisa de produtos.
+
 <div align="center" style="display: inline_block"> 
 
 #### Escrevendo código: <img alt="logo do Starbucks" height="35" width="110" src="https://img.shields.io/badge/starbucks-007042?style=for-the-badge&logo=starbucks&logoColor=white"> <img alt="logo do spotify" height="35" width="80" src="https://img.shields.io/badge/Spotify-1ED760?&style=for-the-badge&logo=spotify&logoColor=white"> <img alt="logo do iFood" height="35" width="80" src="https://img.shields.io/badge/iFood-EA1D2C?style=for-the-badge&logo=ifood&logoColor=white"> 
