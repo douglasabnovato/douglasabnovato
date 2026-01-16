@@ -22,7 +22,7 @@
 
 #### UX: <img align="center" alt="douglasabnovato-Figma" height="30" width="75" src="https://img.shields.io/badge/Figma-2A9F10?style=for-the-badge&logo=figma&logoColor=white"> 
 
-#### Comunidades: <a href="https://discord.com/channels/douglasabnovato#8625" target="_blank"><img src="https://img.shields.io/badge/Discord-7289DA?style=for-the-badge&logo=discord&logoColor=white" target="_blank"></a> <a href="https://www.meetup.com/members/240565780/" target="_blank"><img src="https://img.shields.io/badge/Meetup-F05944?style=for-the-badge&logo=meetup&logoColor=white" target="_blank"></a> <a href="https://app.slack.com/client/T07FD1Z37/DCQPGV9E3/rimeto_profile/UCQPGV6TH" target="_blank"><img src="https://img.shields.io/badge/Slack-6B0E82?style=for-the-badge&logo=slack&logoColor=white" target="_blank"></a> <a href="https://stackoverflow.com/users/5741844/douglasabnovato" target="_blank"><img src="https://img.shields.io/badge/Stackoverflow-EBB60C?style=for-the-badge&logo=stackoverflow&logoColor=white" target="_blank"></a> 
+#### Comunidades: <a href="https://discord.com/channels/douglasabnovato#8625" target="_blank"><img src="https://img.shields.io/badge/Discord-7289DA?style=for-the-badge&logo=discord&logoColor=white" target="_blank"></a> <a href="https://www.meetup.com/members/240565780/" target="_blank"><img src="https://img.shields.io/badge/Meetup-F05944?style=for-the-badge&logo=meetup&logoColor=white" target="_blank"></a> <a href="https://app.slack.com/client/T07FD1Z37/DCQPGV9E3/rimeto_profile/UCQPGV6TH" target="_blank"><img src="https://img.shields.io/badge/Slack-6B0E82?style=for-the-badge&logo=slack&logoColor=white" target="_blank"></a> <a href="https://stackoverflow.com/users/5741844/douglasabnovato" target="_blank"><img src="https://img.shields.io/badge/Stackoverflow-EBB60C?style=for-the-badge&logo=stackoverflow&logoColor=white" target="_blank"></a> <img src="https://img.shields.io/static/v1?message=dev.to&logo=dev.to&label=&color=0A0A0A&logoColor=white&labelColor=&style=for-the-badge" height="25" alt="devto logo"  /> 
 
 </div>
 
@@ -30,19 +30,11 @@
 
 <div align="center" style="display: inline_block">
   
-#### Registrando a trajetória: <a href="https://linktree.com/douglasabnovato" target="_blank"><img src="https://img.shields.io/badge/-linktree-green?style=for-the-badge&logo=linktree&logoColor=white" target="_blank"></a> <a href="https://douglasabnovato.medium.com/" target="_blank"><img src="https://img.shields.io/badge/-medium-%23333?style=for-the-badge&logo=medium&logoColor=white" target="_blank"></a> <a href="https://www.linkedin.com/in/douglasabnovato" target="_blank"><img src="https://img.shields.io/badge/-linkedIn-%230077B5?style=for-the-badge&logo=linkedin&logoColor=white" target="_blank"></a> 
+#### Trajetória: <a href="https://linktree.com/douglasabnovato" target="_blank"><img src="https://img.shields.io/badge/-linktree-green?style=for-the-badge&logo=linktree&logoColor=white" target="_blank"></a> <a href="https://douglasabnovato.medium.com/" target="_blank"><img src="https://img.shields.io/badge/-medium-%23333?style=for-the-badge&logo=medium&logoColor=white" target="_blank"></a> <a href="https://www.linkedin.com/in/douglasabnovato" target="_blank"><img src="https://img.shields.io/badge/-linkedIn-%230077B5?style=for-the-badge&logo=linkedin&logoColor=white" target="_blank"></a> 
 
-#### Redes Sociais: <a href="https://instagram.com/douglasabnovato" target="_blank"><img src="https://img.shields.io/badge/-Instagram-%23E4405F?style=for-the-badge&logo=instagram&logoColor=white" target="_blank"></a> <a href="https://twitter.com/douglasabnovato" target="_blank"><img src="https://img.shields.io/badge/-twitter-blue?style=for-the-badge&logo=twitter&logoColor=white" target="_blank"></a> <a href = "mailto:douglasabnovato@gmail.com" target="_blank"><img src="https://img.shields.io/badge/-Gmail-%23333?style=for-the-badge&logo=gmail&logoColor=white" target="_blank"></a>
+#### Redes Sociais: <a href="https://instagram.com/douglasabnovato" target="_blank"><img src="https://img.shields.io/badge/-Instagram-%23E4405F?style=for-the-badge&logo=instagram&logoColor=white" target="_blank"></a> <a href="https://twitter.com/douglasabnovato" target="_blank"><img src="https://img.shields.io/badge/-twitter-blue?style=for-the-badge&logo=twitter&logoColor=white" target="_blank"></a> <img src="https://img.shields.io/static/v1?message=Twitch&logo=twitch&label=&color=9146FF&logoColor=white&labelColor=&style=for-the-badge" height="25" alt="twitch logo"  />  <a href = "mailto:douglasabnovato@gmail.com" target="_blank"><img src="https://img.shields.io/badge/-Gmail-%23333?style=for-the-badge&logo=gmail&logoColor=white" target="_blank"></a>
     
-</div> 
-
-<div align="center">
-  <img src="https://img.shields.io/static/v1?message=LinkedIn&logo=linkedin&label=&color=0077B5&logoColor=white&labelColor=&style=for-the-badge" height="25" alt="linkedin logo"  />
-  <img src="https://img.shields.io/static/v1?message=Twitter&logo=twitter&label=&color=1DA1F2&logoColor=white&labelColor=&style=for-the-badge" height="25" alt="twitter logo"  />
-  <img src="https://img.shields.io/static/v1?message=Discord&logo=discord&label=&color=7289DA&logoColor=white&labelColor=&style=for-the-badge" height="25" alt="discord logo"  />
-  <img src="https://img.shields.io/static/v1?message=Twitch&logo=twitch&label=&color=9146FF&logoColor=white&labelColor=&style=for-the-badge" height="25" alt="twitch logo"  />
-  <img src="https://img.shields.io/static/v1?message=dev.to&logo=dev.to&label=&color=0A0A0A&logoColor=white&labelColor=&style=for-the-badge" height="25" alt="devto logo"  />
-</div> 
+</div>  
 
 ###
  
