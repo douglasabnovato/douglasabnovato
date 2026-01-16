@@ -33,7 +33,7 @@
 <img alt="douglasabnovato-MongoDB" height="25" src="https://img.shields.io/badge/MongoDB-4EA94B?style=for-the-badge&logo=mongodb&logoColor=white"> 
 <img alt="douglasabnovato-SQLite" height="25" src="https://img.shields.io/badge/SQLite-07405E?style=for-the-badge&logo=sqlite&logoColor=white"> 
 
-#### Infra & Tools: 
+#### Infra & UX: 
 <img alt="douglasabnovato-git" height="25" src="https://img.shields.io/badge/git-CF472B?style=for-the-badge&logo=git&logoColor=white"> 
 <img alt="douglasabnovato-Github" height="25" src="https://img.shields.io/badge/Github-080807?style=for-the-badge&logo=github&logoColor=white"> 
 <img alt="douglasabnovato-Netlify" height="25" src="https://img.shields.io/badge/Netlify-00C7B7?style=for-the-badge&logo=netlify&logoColor=white"> 
@@ -43,13 +43,7 @@
 <a href="https://discord.com/channels/douglasabnovato#8625" target="_blank"><img src="https://img.shields.io/badge/Discord-7289DA?style=for-the-badge&logo=discord&logoColor=white" height="25"></a> 
 <a href="https://www.meetup.com/members/240565780/" target="_blank"><img src="https://img.shields.io/badge/Meetup-F05944?style=for-the-badge&logo=meetup&logoColor=white" height="25"></a> 
 <a href="https://stackoverflow.com/users/5741844/douglasabnovato" target="_blank"><img src="https://img.shields.io/badge/Stackoverflow-EBB60C?style=for-the-badge&logo=stackoverflow&logoColor=white" height="25"></a> 
-<img src="https://img.shields.io/static/v1?message=dev.to&logo=dev.to&label=&color=0A0A0A&logoColor=white&style=for-the-badge" height="25" alt="devto logo" /> 
-
-</div>
-
----
-
-<div align="center">
+<img src="https://img.shields.io/static/v1?message=dev.to&logo=dev.to&label=&color=0A0A0A&logoColor=white&style=for-the-badge" height="25" alt="devto logo" />  
 
 #### Trajetória & Redes: 
 <a href="https://www.linkedin.com/in/douglasabnovato" target="_blank"><img src="https://img.shields.io/badge/-linkedIn-%230077B5?style=for-the-badge&logo=linkedin&logoColor=white" height="25"></a> 
@@ -58,6 +52,10 @@
 <a href="mailto:douglasabnovato@gmail.com" target="_blank"><img src="https://img.shields.io/badge/-Gmail-%23333?style=for-the-badge&logo=gmail&logoColor=white" height="25"></a>
 
 </div>
+
+
+---
+
 
 <div align="center" style="width: 100%">
   <a target="_blank" href="https://github-readme-medium-recent-article.vercel.app/medium/@douglasabnovato/0">
