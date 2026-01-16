@@ -48,33 +48,4 @@
 #### Trajetória & Redes: 
 <a href="https://www.linkedin.com/in/douglasabnovato" target="_blank"><img src="https://img.shields.io/badge/-linkedIn-%230077B5?style=for-the-badge&logo=linkedin&logoColor=white" height="25"></a> 
 <a href="https://douglasabnovato.medium.com/" target="_blank"><img src="https://img.shields.io/badge/-medium-%23333?style=for-the-badge&logo=medium&logoColor=white" height="25"></a> 
-<a href="https://instagram.com/douglasabnovato" target="_blank"><img src="https://img.shields.io/badge/-Instagram-%23E4405F?style=for-the-badge&logo=instagram&logoColor=white" height="25"></a> 
-<a href="mailto:douglasabnovato@gmail.com" target="_blank"><img src="https://img.shields.io/badge/-Gmail-%23333?style=for-the-badge&logo=gmail&logoColor=white" height="25"></a>
-
-</div>
-
----
-
-<div align="center">
-  <a target="_blank" href="https://github-readme-medium-recent-article.vercel.app/medium/@douglasabnovato/0">
-    <img style="width: 32%" src="https://github-readme-medium-recent-article.vercel.app/medium/@douglasabnovato/0" alt="Medium post 1" />
-  </a>
-  <a target="_blank" href="https://github-readme-medium-recent-article.vercel.app/medium/@douglasabnovato/1">
-    <img style="width: 32%" src="https://github-readme-medium-recent-article.vercel.app/medium/@douglasabnovato/1" alt="Medium post 2" />
-  </a> 
-  <a target="_blank" href="https://github-readme-medium-recent-article.vercel.app/medium/@douglasabnovato/4">
-    <img style="width: 32%" src="https://github-readme-medium-recent-article.vercel.app/medium/@douglasabnovato/4" alt="Medium post 5" />
-  </a>
-</div>
-
----
-
-<div align="center">
-  <img alt="Estatísticas do GitHub" height="180em" src="https://github-readme-stats.vercel.app/api?username=douglasabnovato&show_icons=true&theme=dracula&include_all_commits=true&count_private=true">
-  <img alt="Linguagens mais usadas" height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=douglasabnovato&layout=compact&langs_count=7&theme=dracula">
-</div>
-
-<div align="center">
-  #### Minhas contribuições
-  ![Snake animation](https://github.com/douglasabnovato/douglasabnovato/blob/output/github-contribution-grid-snake.svg)
-</div>
+<a href="
