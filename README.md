@@ -54,13 +54,7 @@
   </a>
   <a target="_blank" href="https://github-readme-medium-recent-article.vercel.app/medium/@douglasabnovato/1">
     <img style="width: 100%" src="https://github-readme-medium-recent-article.vercel.app/medium/@douglasabnovato/1" alt="Medium post 2"  />
-  </a>
-  <a target="_blank" href="https://github-readme-medium-recent-article.vercel.app/medium/@douglasabnovato/2">
-    <img style="width: 100%" src="https://github-readme-medium-recent-article.vercel.app/medium/@douglasabnovato/2" alt="Medium post 3"  />
-  </a>
-  <a target="_blank" href="https://github-readme-medium-recent-article.vercel.app/medium/@douglasabnovato/3">
-    <img style="width: 100%" src="https://github-readme-medium-recent-article.vercel.app/medium/@douglasabnovato/3" alt="Medium post 4"  />
-  </a>
+  </a> 
   <a target="_blank" href="https://github-readme-medium-recent-article.vercel.app/medium/@douglasabnovato/4">
     <img style="width: 100%" src="https://github-readme-medium-recent-article.vercel.app/medium/@douglasabnovato/4" alt="Medium post 5"  />
   </a>
