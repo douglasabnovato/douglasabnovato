@@ -3,8 +3,6 @@
 #### Escrevendo código: <img alt="logo do Starbucks" height="35" width="110" src="https://img.shields.io/badge/starbucks-007042?style=for-the-badge&logo=starbucks&logoColor=white"> <img alt="logo do spotify" height="35" width="80" src="https://img.shields.io/badge/Spotify-1ED760?&style=for-the-badge&logo=spotify&logoColor=white"> <img alt="logo do iFood" height="35" width="80" src="https://img.shields.io/badge/iFood-EA1D2C?style=for-the-badge&logo=ifood&logoColor=white"> 
 
 </div>
-  
----
 
 <div align="center" style="display: inline_block">
 
@@ -26,8 +24,6 @@
 
 </div>
 
----
-
 <div align="center" style="display: inline_block">
   
 #### Trajetória: <a href="https://linktree.com/douglasabnovato" target="_blank"><img src="https://img.shields.io/badge/-linktree-green?style=for-the-badge&logo=linktree&logoColor=white" target="_blank"></a> <a href="https://douglasabnovato.medium.com/" target="_blank"><img src="https://img.shields.io/badge/-medium-%23333?style=for-the-badge&logo=medium&logoColor=white" target="_blank"></a> <a href="https://www.linkedin.com/in/douglasabnovato" target="_blank"><img src="https://img.shields.io/badge/-linkedIn-%230077B5?style=for-the-badge&logo=linkedin&logoColor=white" target="_blank"></a> 
@@ -35,10 +31,6 @@
 #### Redes Sociais: <a href="https://instagram.com/douglasabnovato" target="_blank"><img src="https://img.shields.io/badge/-Instagram-%23E4405F?style=for-the-badge&logo=instagram&logoColor=white" target="_blank"></a> <a href="https://twitter.com/douglasabnovato" target="_blank"><img src="https://img.shields.io/badge/-twitter-blue?style=for-the-badge&logo=twitter&logoColor=white" target="_blank"></a> <img src="https://img.shields.io/static/v1?message=Twitch&logo=twitch&label=&color=9146FF&logoColor=white&labelColor=&style=for-the-badge" height="25" alt="twitch logo"  />  <a href = "mailto:douglasabnovato@gmail.com" target="_blank"><img src="https://img.shields.io/badge/-Gmail-%23333?style=for-the-badge&logo=gmail&logoColor=white" target="_blank"></a>
     
 </div>  
-
-###
- 
----
 
 <div align="center" style="width: 100%">
   <a target="_blank" href="https://github-readme-medium-recent-article.vercel.app/medium/@douglasabnovato/0">
