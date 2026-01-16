@@ -43,7 +43,7 @@
 <a href="https://discord.com/channels/douglasabnovato#8625" target="_blank"><img src="https://img.shields.io/badge/Discord-7289DA?style=for-the-badge&logo=discord&logoColor=white" height="25"></a> 
 <a href="https://www.meetup.com/members/240565780/" target="_blank"><img src="https://img.shields.io/badge/Meetup-F05944?style=for-the-badge&logo=meetup&logoColor=white" height="25"></a> 
 <a href="https://stackoverflow.com/users/5741844/douglasabnovato" target="_blank"><img src="https://img.shields.io/badge/Stackoverflow-EBB60C?style=for-the-badge&logo=stackoverflow&logoColor=white" height="25"></a> 
-<img src="https://img.shields.io/static/v1?message=dev.to&logo=dev.to&label=&color=0A0A0A&logoColor=white&style=for-the-badge" height="25" alt="devto logo" />  
+<img src="https://img.shields.io/static/v1?message=dev.to&logo=dev.to&label=&color=0A0A0A&logoColor=white&style=for-the-badge" height="25" alt="devto logo" /> 
 
 #### Trajetória & Redes: 
 <a href="https://www.linkedin.com/in/douglasabnovato" target="_blank"><img src="https://img.shields.io/badge/-linkedIn-%230077B5?style=for-the-badge&logo=linkedin&logoColor=white" height="25"></a> 
@@ -53,18 +53,28 @@
 
 </div>
 
+---
+
+<div align="center">
+  <a target="_blank" href="https://github-readme-medium-recent-article.vercel.app/medium/@douglasabnovato/0">
+    <img style="width: 32%" src="https://github-readme-medium-recent-article.vercel.app/medium/@douglasabnovato/0" alt="Medium post 1" />
+  </a>
+  <a target="_blank" href="https://github-readme-medium-recent-article.vercel.app/medium/@douglasabnovato/1">
+    <img style="width: 32%" src="https://github-readme-medium-recent-article.vercel.app/medium/@douglasabnovato/1" alt="Medium post 2" />
+  </a> 
+  <a target="_blank" href="https://github-readme-medium-recent-article.vercel.app/medium/@douglasabnovato/4">
+    <img style="width: 32%" src="https://github-readme-medium-recent-article.vercel.app/medium/@douglasabnovato/4" alt="Medium post 5" />
+  </a>
+</div>
 
 ---
 
+<div align="center">
+  <img alt="Estatísticas do GitHub" height="180em" src="https://github-readme-stats.vercel.app/api?username=douglasabnovato&show_icons=true&theme=dracula&include_all_commits=true&count_private=true">
+  <img alt="Linguagens mais usadas" height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=douglasabnovato&layout=compact&langs_count=7&theme=dracula">
+</div>
 
-<div align="center" style="width: 100%">
-  <a target="_blank" href="https://github-readme-medium-recent-article.vercel.app/medium/@douglasabnovato/0">
-    <img style="width: 100%" src="https://github-readme-medium-recent-article.vercel.app/medium/@douglasabnovato/0" alt="Medium post 1"  />
-  </a>
-  <a target="_blank" href="https://github-readme-medium-recent-article.vercel.app/medium/@douglasabnovato/1">
-    <img style="width: 100%" src="https://github-readme-medium-recent-article.vercel.app/medium/@douglasabnovato/1" alt="Medium post 2"  />
-  </a> 
-  <a target="_blank" href="https://github-readme-medium-recent-article.vercel.app/medium/@douglasabnovato/4">
-    <img style="width: 100%" src="https://github-readme-medium-recent-article.vercel.app/medium/@douglasabnovato/4" alt="Medium post 5"  />
-  </a>
+<div align="center">
+  #### Minhas contribuições
+  ![Snake animation](https://github.com/douglasabnovato/douglasabnovato/blob/output/github-contribution-grid-snake.svg)
 </div>
