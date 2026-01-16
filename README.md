@@ -17,14 +17,14 @@
 <img alt="logo do HTML" height="25" src="https://img.shields.io/badge/html5-f16529?style=for-the-badge&logo=html5&logoColor=white"> 
 <img alt="logo do CSS" height="25" src="https://img.shields.io/badge/css3-0096dc?style=for-the-badge&logo=css3&logoColor=white"> 
 <img alt="logo do Javascript" height="25" src="https://img.shields.io/badge/javascript-f7df1e?style=for-the-badge&logo=javascript&logoColor=white"> 
-<img alt="logo do React" height="25" src="https://img.shields.io/badge/react-61dafb?style=for-the-badge&logo=react&logoColor=white"> 
 
 #### Frontend & Mobile: 
-<img alt="logo do React Native" height="25" src="https://img.shields.io/badge/React_Native-61DAFB?style=for-the-badge&logo=react&logoColor=white">
+<img alt="logo do React" height="25" src="https://img.shields.io/badge/react-61dafb?style=for-the-badge&logo=react&logoColor=white"> 
 <img alt="logo do Typescript" height="25" src="https://img.shields.io/badge/typescript-3178c6?style=for-the-badge&logo=typescript&logoColor=white"> 
 <img alt="logo do Redux" height="25" src="https://img.shields.io/badge/redux-7649bb?style=for-the-badge&logo=redux&logoColor=white"> 
 <img alt="logo do styled components" height="25" src="https://img.shields.io/badge/styled--components-DB7093?style=for-the-badge&logo=styled-components&logoColor=white"> 
 <img alt="logo do tailwindcss" height="25" src="https://img.shields.io/badge/tailwindcss-7980F5?style=for-the-badge&logo=tailwindcss&logoColor=white">
+<img alt="logo do React Native" height="25" src="https://img.shields.io/badge/React_Native-61DAFB?style=for-the-badge&logo=react&logoColor=white">
 
 #### Backend & BD: 
 <img alt="logo do Node" height="25" src="https://img.shields.io/badge/Node.js-43853D?style=for-the-badge&logo=node.js&logoColor=white"> 
