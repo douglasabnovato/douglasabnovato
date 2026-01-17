@@ -57,7 +57,7 @@
 
 <div align="center" style="width: 100%">
 
-  #### Escrevendo código: 
+  #### Meus artigos: 
   
   <a target="_blank" href="https://github-readme-medium-recent-article.vercel.app/medium/@douglasabnovato/0">
     <img style="width: 100%" src="https://github-readme-medium-recent-article.vercel.app/medium/@douglasabnovato/0" alt="Medium post 1" />
