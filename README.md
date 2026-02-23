@@ -1,6 +1,6 @@
 # Olá, "eu sou o Douglas" 👋 
 
-### Desenvolvedor Fullstack focado em Soluções para ecossistemas que são pontes entre quem tem produtos e quem precisa de produtos.
+### Desenvolvedor Fullstack focado em Soluções de Produtos Digitais para ecossistemas que são pontes entre quem tem produtos e quem precisa de produtos.
 
 <div align="center"> 
 
