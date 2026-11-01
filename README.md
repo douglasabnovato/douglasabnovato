@@ -1,6 +1,6 @@
 # Olá, "eu sou o Douglas" 👋 
 
-### Desenvolvedor Fullstack focado em Produtos Digitais para ecossistemas que são pontes entre quem tem produtos e quem precisa de produtos.
+### Desenvolvedor Fullstack Sênior e Product Manager, focado em Produtos Digitais para ecossistemas que são pontes entre quem tem produtos e quem precisa de produtos.
 
 **Portfólio:** [douglasabnovato-dev.vercel.app](https://douglasabnovato-dev.vercel.app)
 <div align="center">
