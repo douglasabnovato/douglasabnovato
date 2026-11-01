@@ -1,6 +1,8 @@
 # Olá, "eu sou o Douglas" 👋 
 
 ### Desenvolvedor Fullstack focado em Produtos Digitais para ecossistemas que são pontes entre quem tem produtos e quem precisa de produtos.
+
+**Portfólio:** [douglasabnovato-dev.vercel.app](https://douglasabnovato-dev.vercel.app)
 <div align="center">
 
 #### Escrevendo código:
@@ -89,14 +91,6 @@
   <img src="https://img.shields.io/badge/-Gmail-%23333?style=for-the-badge&logo=gmail&logoColor=white" height="25" alt="Badge: Gmail" />
 </a>
 
-<details>
-  <summary>Ver todas as skills</summary>
-  <!-- Coloque aqui badges adicionais, se quiser mantê-las disponíveis sem poluir -->
-  <br/>
-  <!-- exemplo de badge adicional -->
-  <!-- <img src="..." alt="..."> -->
-</details>
-
 </div>
 
 ---
@@ -122,4 +116,4 @@
 
   #### Minha Rotina: 
  
-[![Contribuição Pacman](https://raw.githubusercontent.com/douglasabnovato/douglasabnovato/output/pacman-contribution-graph.svg)](https://douglasabnovato.github.io/douglasabnovato/)
+[![Contribuição Pacman](https://raw.githubusercontent.com/douglasabnovato/douglasabnovato/output/pacman-contribution-graph.svg)](https://github.com/douglasabnovato)
