@@ -75,7 +75,9 @@
 <a href="https://stackoverflow.com/users/5741844/douglasabnovato" target="_blank" rel="noopener" aria-label="Stack Overflow">
   <img src="https://img.shields.io/badge/Stackoverflow-EBB60C?style=for-the-badge&logo=stackoverflow&logoColor=white" height="25" alt="Badge: Stack Overflow" />
 </a>
-<img src="https://img.shields.io/static/v1?message=dev.to&logo=dev.to&label=&color=0A0A0A&logoColor=white&style=for-the-badge" height="25" alt="Badge: dev.to" />
+<a href="https://dev.to/douglasabnovato" target="_blank" rel="noopener" aria-label="dev.to">
+  <img src="https://img.shields.io/static/v1?message=dev.to&logo=dev.to&label=&color=0A0A0A&logoColor=white&style=for-the-badge" height="25" alt="Badge: dev.to" />
+</a>
 
 #### Trajetória & Redes:
 <a href="https://www.linkedin.com/in/douglasabnovato" target="_blank" rel="noopener" aria-label="LinkedIn">
@@ -99,14 +101,14 @@
 
   #### Meus artigos: 
   
-  <a target="_blank" href="https://github-readme-medium-recent-article.vercel.app/medium/@douglasabnovato/0">
-    <img style="width: 100%" src="https://github-readme-medium-recent-article.vercel.app/medium/@douglasabnovato/0" alt="Medium post 1" />
+  <a target="_blank" rel="noopener" href="https://github-readme-medium-recent-article.vercel.app/medium/@douglasabnovato/0">
+    <img style="width: 100%" src="https://github-readme-medium-recent-article.vercel.app/medium/@douglasabnovato/0" alt="Artigo recente 1 do Medium (cartão de serviço externo)" />
   </a>
-  <a target="_blank" href="https://github-readme-medium-recent-article.vercel.app/medium/@douglasabnovato/1">
-    <img style="width: 100%" src="https://github-readme-medium-recent-article.vercel.app/medium/@douglasabnovato/1" alt="Medium post 2" />
+  <a target="_blank" rel="noopener" href="https://github-readme-medium-recent-article.vercel.app/medium/@douglasabnovato/1">
+    <img style="width: 100%" src="https://github-readme-medium-recent-article.vercel.app/medium/@douglasabnovato/1" alt="Artigo recente 2 do Medium (cartão de serviço externo)" />
   </a> 
-  <a target="_blank" href="https://github-readme-medium-recent-article.vercel.app/medium/@douglasabnovato/4">
-    <img style="width: 100%" src="https://github-readme-medium-recent-article.vercel.app/medium/@douglasabnovato/4" alt="Medium post 5" />
+  <a target="_blank" rel="noopener" href="https://github-readme-medium-recent-article.vercel.app/medium/@douglasabnovato/4">
+    <img style="width: 100%" src="https://github-readme-medium-recent-article.vercel.app/medium/@douglasabnovato/4" alt="Artigo recente 5 do Medium (cartão de serviço externo)" />
   </a>
 </div>
 
@@ -117,3 +119,26 @@
   #### Minha Rotina: 
  
 [![Contribuição Pacman](https://raw.githubusercontent.com/douglasabnovato/douglasabnovato/output/pacman-contribution-graph.svg)](https://github.com/douglasabnovato)
+
+---
+
+## Estado e próximos passos (ciclo de 03/11/2026)
+
+Perfil no ar em https://github.com/douglasabnovato. Nível Estudo (N1): 7 de 10 critérios aplicáveis atendidos, Finalizado: sim. Os 3 parciais dependem do responsável.
+
+**O que foi feito**
+
+- Verificador do README com testes: alt descritivo, `noopener`, portfólio no começo e respondendo, documentos e links (PR #51).
+- Alt descritivo nos cartões do Medium e link no selo do dev.to (PR #51).
+- CI também nos PRs e pushes para `developer/**` (PR #51).
+- Perfil completo, com colaboração e organizações registradas em `docs/` (PR #41).
+
+**O que queremos fazer**
+
+- Do responsável: teste com pessoa de fora (#44), proteger a `master` (#45), confirmar cargo, marcos e selos (#46) e trocar o link do Discord (#47).
+- Do código: ordem dos títulos (#48), fixar as actions da animação (#49) e conferir os links toda semana (#50).
+
+**Onde está a documentação**
+
+- [docs/MVP.md](docs/MVP.md): critérios e evidências.
+- [docs/PLANO-DE-ACAO.md](docs/PLANO-DE-ACAO.md): seção "Ciclo de 03/11/2026", com pesquisa, produto e engenharia.
