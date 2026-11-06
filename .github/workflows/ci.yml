@@ -1,8 +1,12 @@
+# CI do perfil: confere o README (estrutura, texto alternativo, portfólio a 1 clique e documentos)
+# e lista o status dos links externos. Roda nos PRs e pushes para a master e developer/**.
 name: CI
 
 on:
+  push:
+    branches: [master, "developer/**"]
   pull_request:
-    branches: [master]
+    branches: [master, "developer/**"]
 
 permissions:
   contents: read
@@ -10,19 +14,13 @@ permissions:
 jobs:
   verificar:
     runs-on: ubuntu-latest
+    timeout-minutes: 5
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-node@v4
         with:
           node-version: 22
-      - name: Conferir README e documentos
-        run: |
-          node -e '
-          const fs = require("fs");
-          const s = fs.readFileSync("README.md", "utf8");
-          const n = (r) => (s.match(r) || []).length;
-          if (n(/<div\b/g) !== n(/<\/div>/g)) throw new Error("div desbalanceada");
-          if (n(/<table>/g) !== n(/<\/table>/g)) throw new Error("tabela desbalanceada");
-          for (const m of s.matchAll(/<img(?![^>]*alt=)[^>]*>/g)) throw new Error("imagem sem alt: " + m[0]);
-          for (const f of ["docs/contribuicao-externa.md", "docs/organizacoes.md"]) fs.accessSync(f);
-          '
+      - name: Testes do verificador
+        run: node --test scripts/*.test.mjs
+      - name: Conferir README, documentos e links
+        run: node scripts/verificar-readme.mjs --rede
