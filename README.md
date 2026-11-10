@@ -122,23 +122,21 @@
 
 ---
 
-## Estado e próximos passos (ciclo de 03/11/2026)
+## Estado e próximos passos (ciclo da faixa de 90%, 10/11/2026)
 
-Perfil no ar em https://github.com/douglasabnovato. Nível Estudo (N1): 8 de 10 critérios aplicáveis atendidos, Finalizado: sim. Os 2 parciais dependem do responsável. A `master` está protegida desde 10/11/2026 (ruleset `principal-protegida`, #45).
+Perfil no ar em https://github.com/douglasabnovato. Nível Estudo (N1): 9 de 10 critérios aplicáveis atendidos, Finalizado: sim. Falta só confirmar cargo, marcos e selos, que é do responsável (#46). A `master` exige PR e o job `verificar` do CI verde.
 
 **O que foi feito**
 
+- Teste de ponta a ponta com Playwright: o README é renderizado pela API do GitHub e o clique leva ao portfólio, no CI (PR #55).
 - Verificador do README com testes: alt descritivo, `noopener`, portfólio no começo e respondendo, documentos e links (PR #51).
-- Alt descritivo nos cartões do Medium e link no selo do dev.to (PR #51).
-- CI também nos PRs e pushes para `developer/**` (PR #51).
-- Perfil completo, com colaboração e organizações registradas em `docs/` (PR #41).
 
 **O que queremos fazer**
 
-- Do responsável: teste com pessoa de fora (#44), confirmar cargo, marcos e selos (#46) e trocar o link do Discord (#47).
+- Do responsável: mesclar a sprint na `master` (PR #54), confirmar cargo, marcos e selos (#46), validar com uma pessoa de fora (#44) e trocar o link do Discord (#47).
 - Do código: ordem dos títulos (#48), fixar as actions da animação (#49) e conferir os links toda semana (#50).
 
 **Onde está a documentação**
 
 - [docs/MVP.md](docs/MVP.md): critérios e evidências.
-- [docs/PLANO-DE-ACAO.md](docs/PLANO-DE-ACAO.md): seção "Ciclo de 03/11/2026", com pesquisa, produto e engenharia.
+- [docs/PLANO-DE-ACAO.md](docs/PLANO-DE-ACAO.md): seção "Ciclo de 10/11/2026".
