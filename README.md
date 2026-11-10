@@ -124,7 +124,7 @@
 
 ## Estado e próximos passos (ciclo de 03/11/2026)
 
-Perfil no ar em https://github.com/douglasabnovato. Nível Estudo (N1): 7 de 10 critérios aplicáveis atendidos, Finalizado: sim. Os 3 parciais dependem do responsável.
+Perfil no ar em https://github.com/douglasabnovato. Nível Estudo (N1): 8 de 10 critérios aplicáveis atendidos, Finalizado: sim. Os 2 parciais dependem do responsável. A `master` está protegida desde 10/11/2026 (ruleset `principal-protegida`, #45).
 
 **O que foi feito**
 
@@ -135,7 +135,7 @@ Perfil no ar em https://github.com/douglasabnovato. Nível Estudo (N1): 7 de 10 
 
 **O que queremos fazer**
 
-- Do responsável: teste com pessoa de fora (#44), proteger a `master` (#45), confirmar cargo, marcos e selos (#46) e trocar o link do Discord (#47).
+- Do responsável: teste com pessoa de fora (#44), confirmar cargo, marcos e selos (#46) e trocar o link do Discord (#47).
 - Do código: ordem dos títulos (#48), fixar as actions da animação (#49) e conferir os links toda semana (#50).
 
 **Onde está a documentação**

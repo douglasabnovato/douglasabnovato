@@ -1,12 +1,14 @@
 # MVP — critérios
 
-> Avaliação de 02/11/2026 com os mesmos 12 critérios usados no `movies`. Revista em 06/11/2026 (ciclo de 03/11/2026, PR #51). Este repositório é a página de perfil do GitHub, não uma aplicação.
+> Avaliação de 02/11/2026 com os mesmos 12 critérios usados no `movies`. Revista em 06/11/2026 (ciclo de 03/11/2026, PR #51). Critério 10 revisto em 10/11/2026. Este repositório é a página de perfil do GitHub, não uma aplicação.
 
 **Nível:** Estudo (N1). É uma página de perfil servida pelo GitHub, sem hospedagem própria nem usuário de produto; por isso os critérios 5 e 7 ficam "Não se aplica (N1)" e saem do denominador.
 
-**Resultado:** 7 de 10 critérios aplicáveis atendidos (1, 2, 4, 6, 8, 9 e 11) e 3 parciais (3, 10 e 12). **Finalizado: sim** — os 3 parciais dependem do responsável, e cada um tem issue com o rótulo `depende-do-responsavel`: #44 (3), #45 (10) e #46 (12).
+**Resumo:** 8 de 10 aplicáveis atendidos (1, 2, 4, 6, 8, 9, 10 e 11) e 2 parciais (3 e 12).
 
-| # | Critério | Como verificar | Situação em 06/11/2026 (evidência) |
+**Finalizado:** sim — os 2 parciais dependem do responsável, e cada um tem issue com o rótulo `depende-do-responsavel`: #44 (3) e #46 (12).
+
+| # | Critério | Como verificar | Situação em 06/11/2026, 10 em 10/11/2026 (evidência) |
 |---|---|---|---|
 | 1 | Problema e público claros | Dá para explicar em uma frase | Atende: apresentar quem é o responsável a quem avalia o perfil e levar ao portfólio |
 | 2 | Hipótese a validar | Existe uma aposta escrita, com meta | Atende: proposta abaixo |
@@ -17,7 +19,7 @@
 | 7 | Desempenho aceitável | LCP de até 2,5 s no celular | Não se aplica (N1): quem serve a página é o GitHub |
 | 8 | Acessibilidade básica | Lighthouse e teclado | Atende: todas as imagens com alt descritivo e links em nova aba com `noopener`, conferidos no CI (PR #51). A ordem dos títulos segue na #48 |
 | 9 | Segurança e conformidade | Riscos decididos; termos cumpridos | Atende: sem segredo no repositório, conferido em `README.md` e nos workflows; a action em `@main` tem issue (#49) |
-| 10 | Entrega confiável | Publicação só depois de CI verde | Parcial: CI nos PRs para a `master` e `developer/**`; a `master` não é protegida, conferido pela API em 06/11/2026 (#45) |
+| 10 | Entrega confiável | Publicação só depois de CI verde | Atende: o workflow `CI` (job `verificar`) roda nos PRs para a `master` e `developer/**`; `gh api repos/douglasabnovato/douglasabnovato/rulesets`, 10/11/2026: ruleset `principal-protegida` ativo (exige PR, bloqueia force push e exclusão) (#45) |
 | 11 | Testes dos fluxos críticos | Testes automatizados no CI | Atende: 6 testes do verificador e conferência do README e do portfólio no CI (PR #51) |
 | 12 | Documentação honesta | Qualquer pessoa roda o projeto, e os números estão certos | Parcial: o cargo, os marcos e os selos "Escrevendo código" dependem de confirmação do responsável (#46) |
 
