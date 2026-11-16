@@ -1,11 +1,11 @@
 # Olá, "eu sou o Douglas" 👋 
 
-### Desenvolvedor Fullstack Sênior e Product Manager, focado em Produtos Digitais para ecossistemas que são pontes entre quem tem produtos e quem precisa de produtos.
+## Desenvolvedor Fullstack Sênior e Product Manager, focado em Produtos Digitais para ecossistemas que são pontes entre quem tem produtos e quem precisa de produtos.
 
 **Portfólio:** [douglasabnovato-dev.vercel.app](https://douglasabnovato-dev.vercel.app)
 <div align="center">
 
-#### Escrevendo código:
+## Escrevendo código:
 <img alt="Badge: Starbucks" height="35" src="https://img.shields.io/badge/starbucks-007042?style=for-the-badge&logo=starbucks&logoColor=white" />
 <img alt="Badge: Spotify" height="35" src="https://img.shields.io/badge/Spotify-1ED760?style=for-the-badge&logo=spotify&logoColor=white" />
 <img alt="Badge: iFood" height="35" src="https://img.shields.io/badge/iFood-EA1D2C?style=for-the-badge&logo=ifood&logoColor=white" />
@@ -14,7 +14,7 @@
 
 <div align="center">
 
-#### Habilidades:
+## Habilidades:
 <table>
   <tr>
     <td><img alt="Badge: HTML5" height="25" src="https://img.shields.io/badge/html5-f16529?style=for-the-badge&logo=html5&logoColor=white" /></td>
@@ -23,7 +23,7 @@
   </tr>
 </table>
 
-#### Frontend & Mobile:
+### Frontend & Mobile:
 <table>
   <tr>
     <td><img alt="Badge: React" height="25" src="https://img.shields.io/badge/react-61dafb?style=for-the-badge&logo=react&logoColor=white" /></td>
@@ -37,7 +37,7 @@
   </tr>
 </table>
 
-#### Backend & BD:
+### Backend & BD:
 <table>
   <tr>
     <td><img alt="Badge: Node.js" height="25" src="https://img.shields.io/badge/Node.js-43853D?style=for-the-badge&logo=node.js&logoColor=white" /></td>
@@ -51,7 +51,7 @@
   </tr>
 </table>
 
-#### Infra & UX:
+### Infra & UX:
 <table>
   <tr>
     <td><img alt="Badge: Git" height="25" src="https://img.shields.io/badge/git-CF472B?style=for-the-badge&logo=git&logoColor=white" /></td>
@@ -65,7 +65,7 @@
   </tr>
 </table>
 
-#### Comunidades:
+## Comunidades:
 <a href="https://discord.com/channels/douglasabnovato#8625" target="_blank" rel="noopener" aria-label="Discord">
   <img src="https://img.shields.io/badge/Discord-7289DA?style=for-the-badge&logo=discord&logoColor=white" height="25" alt="Badge: Discord" />
 </a>
@@ -79,7 +79,7 @@
   <img src="https://img.shields.io/static/v1?message=dev.to&logo=dev.to&label=&color=0A0A0A&logoColor=white&style=for-the-badge" height="25" alt="Badge: dev.to" />
 </a>
 
-#### Trajetória & Redes:
+## Trajetória & Redes:
 <a href="https://www.linkedin.com/in/douglasabnovato" target="_blank" rel="noopener" aria-label="LinkedIn">
   <img src="https://img.shields.io/badge/-linkedIn-%230077B5?style=for-the-badge&logo=linkedin&logoColor=white" height="25" alt="Badge: LinkedIn" />
 </a>
@@ -99,7 +99,7 @@
 
 <div align="center" style="width: 100%">
 
-  #### Meus artigos: 
+  ## Meus artigos: 
   
   <a target="_blank" rel="noopener" href="https://github-readme-medium-recent-article.vercel.app/medium/@douglasabnovato/0">
     <img style="width: 100%" src="https://github-readme-medium-recent-article.vercel.app/medium/@douglasabnovato/0" alt="Artigo recente 1 do Medium (cartão de serviço externo)" />
@@ -116,7 +116,7 @@
 ---
 
 
-  #### Minha Rotina: 
+  ## Minha Rotina: 
  
 [![Contribuição Pacman](https://raw.githubusercontent.com/douglasabnovato/douglasabnovato/output/pacman-contribution-graph.svg)](https://github.com/douglasabnovato)
 

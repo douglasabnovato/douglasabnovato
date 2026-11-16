@@ -23,12 +23,33 @@ export function verificar(s, existe = fs.existsSync) {
   for (const m of s.matchAll(/<a\b[^>]*>/g)) {
     if (/target="_blank"/.test(m[0]) && !/rel="[^"]*noopener/.test(m[0])) erros.push("link sem rel=noopener: " + m[0]);
   }
+  // Títulos em ordem: um único título principal e nenhum nível pulado (leitores de tela navegam por eles)
+  erros.push(...titulos(s));
   // Fluxo principal: o portfólio a 1 clique, logo no começo do perfil
   const inicio = s.split("\n").slice(0, 10).join("\n");
   if (!inicio.includes(`](${PORTFOLIO}`)) erros.push("link do portfólio fora das 10 primeiras linhas");
   for (const f of ["docs/contribuicao-externa.md", "docs/organizacoes.md", "docs/MVP.md", "docs/PLANO-DE-ACAO.md"]) {
     if (!existe(f)) erros.push("arquivo ausente: " + f);
   }
+  return erros;
+}
+
+export function titulos(s) {
+  const erros = [];
+  let anterior = 0;
+  let principais = 0;
+  let cerca = false;
+  for (const linha of s.split(/\r?\n/)) {
+    if (/^\s{0,3}(```|~~~)/.test(linha)) cerca = !cerca;
+    const m = !cerca && linha.match(/^\s{0,3}(#{1,6})\s+(.*)$/);
+    if (!m) continue;
+    const nivel = m[1].length;
+    if (nivel === 1) principais++;
+    if (!anterior && nivel !== 1) erros.push(`primeiro título não é h1: ${m[2].trim()}`);
+    if (anterior && nivel > anterior + 1) erros.push(`título pula de h${anterior} para h${nivel}: ${m[2].trim()}`);
+    anterior = nivel;
+  }
+  if (principais !== 1) erros.push(`esperado 1 título h1, achado ${principais}`);
   return erros;
 }
 
