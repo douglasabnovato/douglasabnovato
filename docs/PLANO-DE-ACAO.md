@@ -2,6 +2,21 @@
 
 > Este arquivo guarda os ciclos datados a partir de 03/11/2026. O estado do MVP fica só em [`MVP.md`](MVP.md).
 
+## Ciclo de 10/11/2026 (faixa de 90%)
+
+> Branch `feature/2026-11-10-b` → `developer/sprint-2026-11-12` → `master` (o PR para a `master` fica com o responsável). Decisões D1 a D7 em `engenharia/decisoes/2026-11-10-ciclo-faixa-90.md`.
+
+**Produto.** Sem mudança de problema e público. A meta da hipótese passa a ser a do ciclo (D1). O teste com uma pessoa de fora vira validação (#44).
+
+**Engenharia.** O CI conferia o link do portfólio no texto. Agora um teste Playwright abre o README renderizado pela API de Markdown do GitHub, a mesma do perfil, e clica até o portfólio. Risco: o teste depende da rede (API do GitHub e Vercel); tem uma nova tentativa no CI.
+
+| Item | Destino |
+|---|---|
+| Teste de ponta a ponta do perfil ao portfólio | Este ciclo |
+| Critérios 2, 3 e 10 pelas decisões D1 a D3 | Este ciclo |
+| Confirmar cargo, marcos e selos | Responsável (#46) |
+| Validar com uma pessoa de fora | Responsável (#44) |
+
 ## Ciclo de 03/11/2026
 
 > Branch `feature/2026-11-06` → `developer/sprint-2026-11-12` → `master`. Nível: Estudo (N1), porque é a página de perfil do GitHub, sem hospedagem própria nem usuário de produto. Critérios 5 e 7 = "Não se aplica (N1)"; ficam 10.
