@@ -129,7 +129,7 @@
 
 ## Estado e próximos passos (ciclo de 16/11/2026)
 
-Perfil no ar em https://github.com/douglasabnovato. Nível Estudo (N1): 8 de 10 critérios aplicáveis atendidos, Finalizado: sim. Os dois parciais são do responsável: ligar os alertas do Dependabot (#57) e confirmar cargo, marcos e selos (#46). A `master` exige PR e o job `verificar` do CI verde.
+Perfil no ar em https://github.com/douglasabnovato. Nível Estudo (N1): 9 de 10 critérios aplicáveis atendidos, Finalizado: sim. O único parcial é do responsável: confirmar cargo, marcos e selos (#46). Os alertas do Dependabot foram ligados em 16/11/2026 e mostram 0 abertos (15h04), com `npm audit --omit=dev` sem vulnerabilidades. A `master` exige PR e o job `verificar` do CI verde.
 
 **O que foi feito**
 
@@ -139,7 +139,7 @@ Perfil no ar em https://github.com/douglasabnovato. Nível Estudo (N1): 8 de 10 
 
 **O que queremos fazer**
 
-- Do responsável: mesclar a sprint na `master`, ligar os alertas do Dependabot (#57), fazer o push da animação voltar a passar (#56), confirmar cargo, marcos e selos (#46), validar com uma pessoa de fora (#44) e trocar o link do Discord (#47).
+- Do responsável: mesclar a sprint na `master`, fechar a issue dos alertas do Dependabot, já ligados (#57), fazer o push da animação voltar a passar (#56), confirmar cargo, marcos e selos (#46), validar com uma pessoa de fora (#44) e trocar o link do Discord (#47).
 - Do código: conferir os links toda semana (#50), atualizar a action de publicação da animação (#58), fixar as actions do CI por SHA (#59) e conferir o perfil publicado nos dois temas (#60).
 
 **Onde está a documentação**
