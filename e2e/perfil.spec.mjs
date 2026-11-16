@@ -62,6 +62,24 @@ test('só com o teclado: o primeiro Tab chega ao portfólio e o Enter abre', asy
   await expect(page).toHaveURL(new RegExp(`^${PORTFOLIO}`));
 });
 
+test('com os serviços de imagem fora do ar, o perfil segue legível e o portfólio a 1 clique', async ({ page }) => {
+  // Simula a queda de selos, cartões do Medium e animação: toda imagem falha (inclusive pelo proxy camo do GitHub)
+  await page.route('**/*', (rota) => (rota.request().resourceType() === 'image' ? rota.abort() : rota.continue()));
+  await abrirPerfil(page);
+
+  const imagens = page.locator('main img');
+  expect(await imagens.count()).toBeGreaterThan(0);
+  await expect.poll(() => imagens.evaluateAll((lista) => lista.every((img) => img.complete && img.naturalWidth === 0))).toBe(true);
+  // Cada imagem quebrada mostra um texto que diz o que era
+  const alts = await imagens.evaluateAll((lista) => lista.map((img) => img.alt.trim()));
+  expect(alts.filter((alt) => alt === '')).toEqual([]);
+  await expect(page.getByAltText('Badge: LinkedIn')).toBeVisible();
+
+  const primeiro = page.locator('main a[href]').first();
+  await expect(primeiro).toHaveAttribute('href', new RegExp(`^${PORTFOLIO}/?$`));
+  await expect(primeiro).toBeVisible();
+});
+
 // A animação tem versão clara e escura (<picture> com prefers-color-scheme). É a única parte do perfil que muda com o tema.
 for (const [tema, arquivo] of [['light', `${ANIMACAO}.svg`], ['dark', `${ANIMACAO}-dark.svg`]]) {
   test.describe(`tema ${tema}`, () => {
