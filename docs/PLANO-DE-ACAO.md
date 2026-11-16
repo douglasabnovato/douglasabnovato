@@ -2,6 +2,66 @@
 
 > Este arquivo guarda os ciclos datados a partir de 03/11/2026. O estado do MVP fica só em [`MVP.md`](MVP.md).
 
+## Ciclo de 16/11/2026
+
+> Branch `feature/2026-11-16` → `developer/sprint-2026-11-19` → `master` (o PR para a `master` fica com o responsável). A sprint de 12/11 entrou na `master` em 16/11/2026 (PR #54).
+
+### Produto
+
+**Problema e público.** Sem mudança: quem avalia o responsável abre o perfil e precisa chegar ao portfólio em 1 clique, sem informação errada no caminho.
+
+**Hipótese e meta.** Sem mudança (decisão D1 de 10/11/2026): se o perfil levar a um portfólio com projetos no ar em 1 clique, quem avalia abre ao menos 1 projeto. Saberemos quando uma pessoa de fora, sem ajuda, abrir o portfólio a partir do perfil e depois um projeto (#44).
+
+**O que a análise mostrou.**
+- O critério 8 estava "Atende" sem axe nem teste de teclado no navegador, que é a evidência da régua. Volta a "Atende" só com o axe dentro do teste Playwright.
+- O critério 9 estava "Atende" só pelo `npm audit`. A API de alertas do Dependabot responde 403 (alertas desligados), e a regra para esse caso está em decisão (engenharia#33): o critério fica "Parcial".
+- A animação falhou no push da `master` em 16/11/2026 com 403 (#56, do responsável). O perfil segue mostrando a última animação gerada.
+
+**O que a pesquisa trouxe.**
+
+| Ideia | O que levamos para o projeto | Fonte |
+|---|---|---|
+| Imagem por tema no Markdown | O GitHub aceita `<picture>` com `<source media="(prefers-color-scheme: dark)">`. A branch `output` já gera a animação escura, que o perfil não usava | [GitHub Docs: sintaxe básica de escrita e formatação](https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax) |
+| Action de terceiros fixada por SHA | O guia de segurança do Actions recomenda fixar actions de terceiros pelo SHA completo do commit. O `main.yml` usava `@main` com permissão de escrita (#49) | [GitHub Docs: segurança no GitHub Actions](https://docs.github.com/en/actions/security-for-github-actions/security-guides/security-hardening-for-github-actions) |
+| Dependabot para actions | Com `package-ecosystem: "github-actions"`, o Dependabot abre PR quando uma action fixada ganha versão nova; o SHA não envelhece sem aviso | [GitHub Docs: manter as actions atualizadas com o Dependabot](https://docs.github.com/en/code-security/dependabot/working-with-dependabot/keeping-your-actions-up-to-date-with-dependabot) |
+| axe no Playwright | O Playwright indica o `@axe-core/playwright` para rodar o axe dentro do teste de navegador | [Playwright: testes de acessibilidade](https://playwright.dev/docs/accessibility-testing) |
+
+**Backlog priorizado (impacto × esforço).**
+
+| Prioridade | Item | Impacto | Esforço | Destino |
+|---|---|---|---|---|
+| 1 | axe e teclado dentro do teste Playwright do perfil | Alto | Baixo | Este ciclo |
+| 2 | Critério 9 em "Parcial" e issue para ligar os alertas do Dependabot | Alto | Baixo | Este ciclo e responsável |
+| 3 | Fixar as actions da animação por SHA e Dependabot para actions e npm (#49) | Médio | Baixo | Este ciclo |
+| 4 | Ordem dos títulos, com regra no verificador (#48) | Médio | Baixo | Este ciclo |
+| 5 | Animação escura com `<picture>` | Baixo | Baixo | Este ciclo |
+| 6 | `docs/DEPLOY.md` com como o perfil é publicado | Médio | Baixo | Este ciclo |
+| 7 | Conferência semanal dos links (#50) | Médio | Baixo | Issue |
+
+**Fora do escopo.** Mudar o texto do perfil, cargo, marcos e selos (#46); trocar a animação; mexer em Settings, rulesets ou permissões do Actions (#56).
+
+### Engenharia
+
+**Arquitetura.** Sem mudança: o `README.md` é a página; o GitHub publica a `master` sozinho. O `main.yml` gera a animação e grava na branch `output`. O `ci.yml` roda o verificador, os testes e o Playwright, que renderiza o README pela API de Markdown do GitHub.
+
+**Riscos.**
+- O teste depende da rede (API do GitHub, Vercel e serviços de selos). Tem uma nova tentativa no CI.
+- O axe roda sobre o HTML que a API devolve, sem o CSS do GitHub. Contraste e tema da página são do GitHub; o teste não diz nada sobre eles.
+- O SHA novo da animação só roda depois do merge na `master`, e o push da animação está negado (#56).
+
+**Qualidade.**
+- Testes: verificador com regra nova de títulos; Playwright com axe (WCAG A e AA), Tab até o portfólio com foco visível, imagens fora do ar e a troca da animação no tema escuro.
+- Acessibilidade: o perfil não tem CSS próprio nem tema escuro próprio; só a imagem da animação muda com o tema. O axe roda no claro.
+- Segurança: `npm audit --omit=dev`; nenhuma action de terceiros em branch móvel. As actions oficiais do CI seguem por tag (`@v4`) até a #59.
+
+**Definição de pronto.** `npm test`, `node scripts/verificar-readme.mjs --rede` e `npm run test:e2e` passam; CI verde no PR; revisão independente feita; `docs/MVP.md`, README e `docs/DEPLOY.md` atualizados.
+
+### Plano de ação
+
+**Este ciclo executa.** Itens 1 a 6 do backlog.
+
+**Vira issue.** Ligar os alertas do Dependabot (#57, responsável); conferência semanal dos links (#50); trocar a `ghaction-github-pages` por versão que roda em Node 24 (#58); fixar por SHA as actions do CI (#59); conferir o perfil publicado nos temas claro e escuro (#60); demais pendências do responsável (#44, #46, #47, #56).
+
 ## Ciclo de 10/11/2026 (faixa de 90%)
 
 > Branch `feature/2026-11-10-b` → `developer/sprint-2026-11-12` → `master` (o PR para a `master` fica com o responsável). Decisões D1 a D7 em `engenharia/decisoes/2026-11-10-ciclo-faixa-90.md`.
