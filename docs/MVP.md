@@ -1,8 +1,39 @@
 # MVP — critérios
 
-> Fonte única do estado. Tabela atual de 10/11/2026 (ciclo da faixa de 90%; decisões D1 a D7 em `engenharia/decisoes/2026-11-10-ciclo-faixa-90.md`). As anteriores estão em "Histórico". Este repositório é a página de perfil do GitHub, não uma aplicação.
+> Fonte única do estado. Tabela atual de 16/11/2026 (ciclo de 16/11/2026). As anteriores estão em "Histórico". Este repositório é a página de perfil do GitHub, não uma aplicação.
 
 **Nível:** Estudo (N1). É uma página de perfil servida pelo GitHub, sem hospedagem própria nem usuário de produto; por isso os critérios 5 e 7 ficam "Não se aplica (N1)" e saem do denominador.
+
+**Resumo:** 8 de 10 aplicáveis atendidos
+
+**Finalizado:** sim — os 2 parciais dependem do responsável, e cada um tem issue com `depende-do-responsavel`: ligar os alertas do Dependabot (#57, critério 9) e confirmar cargo, marcos e selos (#46, critério 12).
+
+Em 10/11/2026 a tabela dizia 9 de 10. Dois "Atende" não tinham a evidência da régua: o 8 não tinha axe nem teste de teclado no navegador (agora tem), e o 9 se apoiava só no `npm audit`, com os alertas do Dependabot desligados (segue "Parcial").
+
+| # | Critério | Como verificar | Situação em 16/11/2026 (evidência) |
+|---|---|---|---|
+| 1 | Problema e público claros | Dá para explicar em uma frase | Atende: apresentar quem é o responsável a quem avalia o perfil e levar ao portfólio |
+| 2 | Hipótese a validar | Aposta escrita, com meta | Atende: aposta, meta e "saberemos quando" em "Hipótese e escopo" abaixo (meta da decisão D1, 10/11/2026, revisável pelo responsável) |
+| 3 | Fluxo principal completo | Teste de ponta a ponta no navegador, no CI | Atende: `npm run test:e2e`, 16/11/2026: 5 testes passam. O README é renderizado pela API de Markdown do GitHub; o primeiro link é o portfólio, e o clique e o Enter abrem https://douglasabnovato-dev.vercel.app com 200. Roda no job `verificar` do CI |
+| 4 | Escopo enxuto | O que não entra está registrado | Atende: "Hipótese e escopo" abaixo |
+| 5 | Medição de uso | A métrica principal é coletada | Não se aplica (N1): o GitHub não dá essa medida em um perfil |
+| 6 | Falhas tratadas | Erro, vazio e carregamento têm resposta | Atende: `npm run test:e2e`, 16/11/2026: com toda imagem bloqueada (selos, cartões do Medium, animação e proxy do GitHub), cada imagem mostra um alt que diz o que era, e o portfólio segue o primeiro link. Tirar um alt faz o teste falhar (conferido em 16/11/2026) |
+| 7 | Desempenho aceitável | LCP até 2,5 s no celular | Não se aplica (N1): quem serve a página é o GitHub |
+| 8 | Acessibilidade básica | axe e teclado | Atende: `npm run test:e2e`, 16/11/2026: axe (WCAG A e AA) sem violações no README renderizado, largura de desktop, conteúdo real; o primeiro Tab foca o portfólio e o Enter abre. `npm test`, 16/11/2026: 9 passam, com títulos em ordem (h1, h2, h3), alt descritivo e `noopener` (#48). O perfil não tem CSS nem tema escuro próprios: o axe roda no claro; só a animação tem versão escura, e o teste confere qual imagem aparece em cada tema. Tirar um alt faz o axe acusar `image-alt` (conferido em 16/11/2026) |
+| 9 | Segurança e conformidade | `npm audit --omit=dev` e alertas do Dependabot pela API | Parcial: `npm audit --omit=dev`, 16/11/2026: 0 vulnerabilidades (só há dependências de teste). `gh api "repos/douglasabnovato/douglasabnovato/dependabot/alerts?state=open&per_page=100"`, 16/11/2026: 403, alertas desligados; ligar é do responsável (#57), e a regra para esse caso está em decisão (engenharia#33). Sem segredo no repositório: o CI usa só o `GITHUB_TOKEN` do Actions. As actions da animação estão fixadas por SHA, com Dependabot de versões (#49) |
+| 10 | Entrega confiável | CI nos PRs e principal protegida | Atende: `gh api repos/douglasabnovato/douglasabnovato/rules/branches/master`, 16/11/2026: `deletion`, `non_fast_forward`, `pull_request` e `required_status_checks` com o job `verificar`. O workflow `CI` roda nos PRs para a `master` e `developer/**` |
+| 11 | Testes dos fluxos críticos | Testes automatizados no CI | Atende: no job `verificar`, 9 testes do verificador (`npm test`), a conferência do README e dos links e 5 testes Playwright, sem `skip` |
+| 12 | Documentação honesta | README com comandos conferidos; link publicado só se responder hoje | Parcial: comandos do README e do `docs/DEPLOY.md` conferidos em 16/11/2026, e https://github.com/douglasabnovato respondeu 200. O cargo, os marcos e os selos "Escrevendo código" dependem de confirmação do responsável (#46) |
+
+## Hipótese e escopo
+
+**Hipótese (meta da decisão D1, 10/11/2026, revisável pelo responsável):** acreditamos que um perfil que leva a um portfólio com projetos no ar em 1 clique faz quem avalia abrir ao menos 1 projeto. Saberemos quando uma pessoa de fora, sem ajuda, sair do perfil, abrir o portfólio e depois um projeto, no celular e no computador (#44).
+
+**Fora do MVP:** cartão de estatísticas, contribuição externa e organizações, registrados em `docs/`; teste com uma pessoa de fora, que é validação de produto (#44); mudar o texto do perfil sem o responsável (#46).
+
+## Histórico
+
+### Tabela de 10/11/2026 (ciclo da faixa de 90%; decisões D1 a D7 em `engenharia/decisoes/2026-11-10-ciclo-faixa-90.md`)
 
 **Resumo:** 9 de 10 aplicáveis atendidos
 
@@ -22,14 +53,6 @@
 | 10 | Entrega confiável | Publicação só depois de CI verde | Atende: `gh api repos/douglasabnovato/douglasabnovato/rules/branches/master`, 10/11/2026: `deletion`, `non_fast_forward`, `pull_request` e `required_status_checks` com o job `verificar` (decisão D3) (#45) |
 | 11 | Testes dos fluxos críticos | Testes automatizados no CI | Atende: 6 testes do verificador, conferência do README e dos links e o teste Playwright do fluxo, no job `verificar` |
 | 12 | Documentação honesta | Qualquer pessoa roda o projeto, e os números estão certos | Parcial: o cargo, os marcos e os selos "Escrevendo código" dependem de confirmação do responsável (#46) |
-
-## Hipótese e escopo
-
-**Hipótese (meta decidida pelo coordenador em 10/11/2026, decisão D1, revisável):** se o perfil levar a um portfólio com projetos no ar em 1 clique, quem avalia abre ao menos 1 projeto.
-
-**Fora do MVP:** cartão de estatísticas, contribuição externa e organizações, registrados em `docs/`; teste com uma pessoa de fora, que é validação de produto (#44).
-
-## Histórico
 
 ### Tabela de 06/11/2026, critério 10 revisto em 10/11/2026 (ciclo de 03/11/2026)
 

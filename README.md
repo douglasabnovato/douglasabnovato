@@ -127,21 +127,23 @@
 
 ---
 
-## Estado e próximos passos (ciclo da faixa de 90%, 10/11/2026)
+## Estado e próximos passos (ciclo de 16/11/2026)
 
-Perfil no ar em https://github.com/douglasabnovato. Nível Estudo (N1): 9 de 10 critérios aplicáveis atendidos, Finalizado: sim. Falta só confirmar cargo, marcos e selos, que é do responsável (#46). A `master` exige PR e o job `verificar` do CI verde.
+Perfil no ar em https://github.com/douglasabnovato. Nível Estudo (N1): 8 de 10 critérios aplicáveis atendidos, Finalizado: sim. Os dois parciais são do responsável: ligar os alertas do Dependabot (#57) e confirmar cargo, marcos e selos (#46). A `master` exige PR e o job `verificar` do CI verde.
 
 **O que foi feito**
 
+- Ciclo de 16/11/2026 (PR da `feature/2026-11-16` para a `developer/sprint-2026-11-19`): axe e teclado no teste Playwright, perfil legível com as imagens fora do ar, títulos em ordem (#48), animação clara e escura e actions da animação fixadas por SHA (#49).
 - Teste de ponta a ponta com Playwright: o README é renderizado pela API do GitHub e o clique leva ao portfólio, no CI (PR #55).
 - Verificador do README com testes: alt descritivo, `noopener`, portfólio no começo e respondendo, documentos e links (PR #51).
 
 **O que queremos fazer**
 
-- Do responsável: mesclar a sprint na `master` (PR #54), confirmar cargo, marcos e selos (#46), validar com uma pessoa de fora (#44) e trocar o link do Discord (#47).
-- Do código: ordem dos títulos (#48), fixar as actions da animação (#49) e conferir os links toda semana (#50).
+- Do responsável: mesclar a sprint na `master`, ligar os alertas do Dependabot (#57), fazer o push da animação voltar a passar (#56), confirmar cargo, marcos e selos (#46), validar com uma pessoa de fora (#44) e trocar o link do Discord (#47).
+- Do código: conferir os links toda semana (#50), atualizar a action de publicação da animação (#58), fixar as actions do CI por SHA (#59) e conferir o perfil publicado nos dois temas (#60).
 
 **Onde está a documentação**
 
 - [docs/MVP.md](docs/MVP.md): critérios e evidências.
-- [docs/PLANO-DE-ACAO.md](docs/PLANO-DE-ACAO.md): seção "Ciclo de 10/11/2026".
+- [docs/PLANO-DE-ACAO.md](docs/PLANO-DE-ACAO.md): seção "Ciclo de 16/11/2026".
+- [docs/DEPLOY.md](docs/DEPLOY.md): como o perfil e a animação são publicados.

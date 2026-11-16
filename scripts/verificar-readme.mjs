@@ -28,7 +28,7 @@ export function verificar(s, existe = fs.existsSync) {
   // Fluxo principal: o portfólio a 1 clique, logo no começo do perfil
   const inicio = s.split("\n").slice(0, 10).join("\n");
   if (!inicio.includes(`](${PORTFOLIO}`)) erros.push("link do portfólio fora das 10 primeiras linhas");
-  for (const f of ["docs/contribuicao-externa.md", "docs/organizacoes.md", "docs/MVP.md", "docs/PLANO-DE-ACAO.md"]) {
+  for (const f of ["docs/contribuicao-externa.md", "docs/organizacoes.md", "docs/MVP.md", "docs/PLANO-DE-ACAO.md", "docs/DEPLOY.md"]) {
     if (!existe(f)) erros.push("arquivo ausente: " + f);
   }
   return erros;
