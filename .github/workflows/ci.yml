@@ -1,5 +1,5 @@
 # CI do perfil: confere o README (estrutura, texto alternativo, portfólio a 1 clique e documentos)
-# e lista o status dos links externos. O Playwright abre o README renderizado e clica até o portfólio. Roda nos PRs e pushes para a master e developer/**.
+# e lista o status dos links externos. O Playwright abre o README renderizado, roda o axe e chega ao portfólio com clique e teclado. Roda nos PRs e pushes para a master e developer/**.
 name: CI
 
 on:

@@ -19,13 +19,13 @@ jobs:
 
     steps:
       - name: generate pacman-contribution-graph.svg
-        uses: abozanona/pacman-contribution-graph@main
+        uses: abozanona/pacman-contribution-graph@7332e1de7903ab780c3692a4127a59cc13872daa # v5.3.2
         with:
           github_user_name: ${{ github.repository_owner }}
 
 
       - name: push pacman-contribution-graph.svg to the output branch
-        uses: crazy-max/ghaction-github-pages@v3.1.0
+        uses: crazy-max/ghaction-github-pages@c0d7ff0487ee0415efb7f32dab10ea880330b1dd # v3.1.0
         with:
           target_branch: output
           build_dir: dist

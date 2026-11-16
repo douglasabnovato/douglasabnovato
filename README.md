@@ -1,11 +1,11 @@
 # Olá, "eu sou o Douglas" 👋 
 
-### Desenvolvedor Fullstack Sênior e Product Manager, focado em Produtos Digitais para ecossistemas que são pontes entre quem tem produtos e quem precisa de produtos.
+## Desenvolvedor Fullstack Sênior e Product Manager, focado em Produtos Digitais para ecossistemas que são pontes entre quem tem produtos e quem precisa de produtos.
 
 **Portfólio:** [douglasabnovato-dev.vercel.app](https://douglasabnovato-dev.vercel.app)
 <div align="center">
 
-#### Escrevendo código:
+## Escrevendo código:
 <img alt="Badge: Starbucks" height="35" src="https://img.shields.io/badge/starbucks-007042?style=for-the-badge&logo=starbucks&logoColor=white" />
 <img alt="Badge: Spotify" height="35" src="https://img.shields.io/badge/Spotify-1ED760?style=for-the-badge&logo=spotify&logoColor=white" />
 <img alt="Badge: iFood" height="35" src="https://img.shields.io/badge/iFood-EA1D2C?style=for-the-badge&logo=ifood&logoColor=white" />
@@ -14,7 +14,7 @@
 
 <div align="center">
 
-#### Habilidades:
+## Habilidades:
 <table>
   <tr>
     <td><img alt="Badge: HTML5" height="25" src="https://img.shields.io/badge/html5-f16529?style=for-the-badge&logo=html5&logoColor=white" /></td>
@@ -23,7 +23,7 @@
   </tr>
 </table>
 
-#### Frontend & Mobile:
+### Frontend & Mobile:
 <table>
   <tr>
     <td><img alt="Badge: React" height="25" src="https://img.shields.io/badge/react-61dafb?style=for-the-badge&logo=react&logoColor=white" /></td>
@@ -37,7 +37,7 @@
   </tr>
 </table>
 
-#### Backend & BD:
+### Backend & BD:
 <table>
   <tr>
     <td><img alt="Badge: Node.js" height="25" src="https://img.shields.io/badge/Node.js-43853D?style=for-the-badge&logo=node.js&logoColor=white" /></td>
@@ -51,7 +51,7 @@
   </tr>
 </table>
 
-#### Infra & UX:
+### Infra & UX:
 <table>
   <tr>
     <td><img alt="Badge: Git" height="25" src="https://img.shields.io/badge/git-CF472B?style=for-the-badge&logo=git&logoColor=white" /></td>
@@ -65,7 +65,7 @@
   </tr>
 </table>
 
-#### Comunidades:
+## Comunidades:
 <a href="https://discord.com/channels/douglasabnovato#8625" target="_blank" rel="noopener" aria-label="Discord">
   <img src="https://img.shields.io/badge/Discord-7289DA?style=for-the-badge&logo=discord&logoColor=white" height="25" alt="Badge: Discord" />
 </a>
@@ -79,7 +79,7 @@
   <img src="https://img.shields.io/static/v1?message=dev.to&logo=dev.to&label=&color=0A0A0A&logoColor=white&style=for-the-badge" height="25" alt="Badge: dev.to" />
 </a>
 
-#### Trajetória & Redes:
+## Trajetória & Redes:
 <a href="https://www.linkedin.com/in/douglasabnovato" target="_blank" rel="noopener" aria-label="LinkedIn">
   <img src="https://img.shields.io/badge/-linkedIn-%230077B5?style=for-the-badge&logo=linkedin&logoColor=white" height="25" alt="Badge: LinkedIn" />
 </a>
@@ -99,7 +99,7 @@
 
 <div align="center" style="width: 100%">
 
-  #### Meus artigos: 
+  ## Meus artigos: 
   
   <a target="_blank" rel="noopener" href="https://github-readme-medium-recent-article.vercel.app/medium/@douglasabnovato/0">
     <img style="width: 100%" src="https://github-readme-medium-recent-article.vercel.app/medium/@douglasabnovato/0" alt="Artigo recente 1 do Medium (cartão de serviço externo)" />
@@ -116,27 +116,34 @@
 ---
 
 
-  #### Minha Rotina: 
+  ## Minha Rotina: 
  
-[![Contribuição Pacman](https://raw.githubusercontent.com/douglasabnovato/douglasabnovato/output/pacman-contribution-graph.svg)](https://github.com/douglasabnovato)
+<a href="https://github.com/douglasabnovato">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/douglasabnovato/douglasabnovato/output/pacman-contribution-graph-dark.svg" />
+    <img alt="Contribuição Pacman: animação do Pac-Man sobre o gráfico de contribuições" src="https://raw.githubusercontent.com/douglasabnovato/douglasabnovato/output/pacman-contribution-graph.svg" />
+  </picture>
+</a>
 
 ---
 
-## Estado e próximos passos (ciclo da faixa de 90%, 10/11/2026)
+## Estado e próximos passos (ciclo de 16/11/2026)
 
-Perfil no ar em https://github.com/douglasabnovato. Nível Estudo (N1): 9 de 10 critérios aplicáveis atendidos, Finalizado: sim. Falta só confirmar cargo, marcos e selos, que é do responsável (#46). A `master` exige PR e o job `verificar` do CI verde.
+Perfil no ar em https://github.com/douglasabnovato. Nível Estudo (N1): 8 de 10 critérios aplicáveis atendidos, Finalizado: sim. Os dois parciais são do responsável: ligar os alertas do Dependabot (#57) e confirmar cargo, marcos e selos (#46). A `master` exige PR e o job `verificar` do CI verde.
 
 **O que foi feito**
 
+- Ciclo de 16/11/2026 (PR da `feature/2026-11-16` para a `developer/sprint-2026-11-19`): axe e teclado no teste Playwright, perfil legível com as imagens fora do ar, títulos em ordem (#48), animação clara e escura e actions da animação fixadas por SHA (#49).
 - Teste de ponta a ponta com Playwright: o README é renderizado pela API do GitHub e o clique leva ao portfólio, no CI (PR #55).
 - Verificador do README com testes: alt descritivo, `noopener`, portfólio no começo e respondendo, documentos e links (PR #51).
 
 **O que queremos fazer**
 
-- Do responsável: mesclar a sprint na `master` (PR #54), confirmar cargo, marcos e selos (#46), validar com uma pessoa de fora (#44) e trocar o link do Discord (#47).
-- Do código: ordem dos títulos (#48), fixar as actions da animação (#49) e conferir os links toda semana (#50).
+- Do responsável: mesclar a sprint na `master`, ligar os alertas do Dependabot (#57), fazer o push da animação voltar a passar (#56), confirmar cargo, marcos e selos (#46), validar com uma pessoa de fora (#44) e trocar o link do Discord (#47).
+- Do código: conferir os links toda semana (#50), atualizar a action de publicação da animação (#58), fixar as actions do CI por SHA (#59) e conferir o perfil publicado nos dois temas (#60).
 
 **Onde está a documentação**
 
 - [docs/MVP.md](docs/MVP.md): critérios e evidências.
-- [docs/PLANO-DE-ACAO.md](docs/PLANO-DE-ACAO.md): seção "Ciclo de 10/11/2026".
+- [docs/PLANO-DE-ACAO.md](docs/PLANO-DE-ACAO.md): seção "Ciclo de 16/11/2026".
+- [docs/DEPLOY.md](docs/DEPLOY.md): como o perfil e a animação são publicados.
