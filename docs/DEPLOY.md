@@ -34,4 +34,5 @@ As três URLs devem responder 200, e o último run do workflow deve estar verde.
 |---|---|---|
 | Mesclar o PR da sprint na `master` | PR com o rótulo `revisao-responsavel` | — |
 | Fazer o push da animação voltar a passar (403 em 16/11/2026) | Settings → Actions → General → **Workflow permissions** | #56 |
-| Ligar os alertas do Dependabot | Settings → Advanced Security → **Dependabot alerts** → **Enable** | ver `docs/MVP.md`, critério 9 |
+| Ligar os alertas do Dependabot | Settings → Advanced Security → **Dependabot alerts** → **Enable** | #57 |
+| Mesclar os PRs de versão do Dependabot | Eles vão direto para a `master` (`target-branch`), e o merge é do responsável, com CI verde | — |

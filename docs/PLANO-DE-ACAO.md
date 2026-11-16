@@ -50,9 +50,9 @@
 - O SHA novo da animação só roda depois do merge na `master`, e o push da animação está negado (#56).
 
 **Qualidade.**
-- Testes: verificador com regra nova de títulos; Playwright com axe (WCAG A e AA), Tab até o portfólio e a troca da animação no tema escuro.
+- Testes: verificador com regra nova de títulos; Playwright com axe (WCAG A e AA), Tab até o portfólio com foco visível, imagens fora do ar e a troca da animação no tema escuro.
 - Acessibilidade: o perfil não tem CSS próprio nem tema escuro próprio; só a imagem da animação muda com o tema. O axe roda no claro.
-- Segurança: `npm audit --omit=dev`; nenhuma action de terceiros em branch móvel.
+- Segurança: `npm audit --omit=dev`; nenhuma action de terceiros em branch móvel. As actions oficiais do CI seguem por tag (`@v4`) até a #59.
 
 **Definição de pronto.** `npm test`, `node scripts/verificar-readme.mjs --rede` e `npm run test:e2e` passam; CI verde no PR; revisão independente feita; `docs/MVP.md`, README e `docs/DEPLOY.md` atualizados.
 
@@ -60,7 +60,7 @@
 
 **Este ciclo executa.** Itens 1 a 6 do backlog.
 
-**Vira issue.** Ligar os alertas do Dependabot (responsável); conferência semanal dos links (#50); trocar a `ghaction-github-pages` por versão que roda em Node 24; print do perfil no tema escuro depois do merge; demais pendências do responsável (#44, #46, #47, #56).
+**Vira issue.** Ligar os alertas do Dependabot (#57, responsável); conferência semanal dos links (#50); trocar a `ghaction-github-pages` por versão que roda em Node 24 (#58); fixar por SHA as actions do CI (#59); conferir o perfil publicado nos temas claro e escuro (#60); demais pendências do responsável (#44, #46, #47, #56).
 
 ## Ciclo de 10/11/2026 (faixa de 90%)
 

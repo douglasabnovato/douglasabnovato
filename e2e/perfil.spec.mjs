@@ -30,6 +30,13 @@ async function abrirPerfil(page) {
   );
 }
 
+// Resposta da navegação até o portfólio (ignora redirecionamentos)
+function respostaDoPortfolio(page) {
+  return page.waitForResponse(
+    (r) => r.request().isNavigationRequest() && r.url().startsWith(PORTFOLIO) && (r.status() < 300 || r.status() >= 400),
+  );
+}
+
 // axe sem violações nas regras WCAG A e AA
 async function semViolacoes(page) {
   const { violations } = await new AxeBuilder({ page }).withTags(['wcag2a', 'wcag2aa', 'wcag21a', 'wcag21aa']).analyze();
@@ -45,19 +52,28 @@ test('do perfil ao portfólio em 1 clique, com axe sem violações', async ({ pa
   await expect(primeiro).toHaveAttribute('href', new RegExp(`^${PORTFOLIO}/?$`));
   await expect(primeiro).toBeVisible();
 
-  const [resposta] = await Promise.all([page.waitForNavigation(), primeiro.click()]);
+  const [resposta] = await Promise.all([respostaDoPortfolio(page), primeiro.click()]);
   expect(resposta?.status()).toBe(200);
   await expect(page).toHaveURL(new RegExp(`^${PORTFOLIO}`));
   await expect(page.locator('body')).not.toBeEmpty();
 });
 
-test('só com o teclado: o primeiro Tab chega ao portfólio e o Enter abre', async ({ page }) => {
+test('só com o teclado: no README renderizado, o primeiro Tab chega ao portfólio com foco visível e o Enter abre', async ({ page }) => {
   await abrirPerfil(page);
   await page.keyboard.press('Tab');
   const focado = await page.evaluate(() => document.activeElement?.getAttribute('href'));
   expect(focado).toMatch(new RegExp(`^${PORTFOLIO}/?$`));
+  // Foco visível: o link casa com :focus-visible e tem contorno. O estilo é o padrão do navegador; no perfil publicado, é o do GitHub
+  const foco = await page.evaluate(() => {
+    const el = document.activeElement;
+    const css = getComputedStyle(el);
+    return { visivel: el.matches(':focus-visible'), contorno: css.outlineStyle, largura: parseFloat(css.outlineWidth) };
+  });
+  expect(foco.visivel).toBe(true);
+  expect(foco.contorno).not.toBe('none');
+  expect(foco.largura).toBeGreaterThan(0);
 
-  const [resposta] = await Promise.all([page.waitForNavigation(), page.keyboard.press('Enter')]);
+  const [resposta] = await Promise.all([respostaDoPortfolio(page), page.keyboard.press('Enter')]);
   expect(resposta?.status()).toBe(200);
   await expect(page).toHaveURL(new RegExp(`^${PORTFOLIO}`));
 });
@@ -70,10 +86,11 @@ test('com os serviços de imagem fora do ar, o perfil segue legível e o portfó
   const imagens = page.locator('main img');
   expect(await imagens.count()).toBeGreaterThan(0);
   await expect.poll(() => imagens.evaluateAll((lista) => lista.every((img) => img.complete && img.naturalWidth === 0))).toBe(true);
-  // Cada imagem quebrada mostra um texto que diz o que era
+  // Cada imagem quebrada mostra um alt não vazio; os selos dizem de que são
   const alts = await imagens.evaluateAll((lista) => lista.map((img) => img.alt.trim()));
   expect(alts.filter((alt) => alt === '')).toEqual([]);
   await expect(page.getByAltText('Badge: LinkedIn')).toBeVisible();
+  expect(alts.filter((alt) => alt.startsWith('Badge: ')).length).toBeGreaterThan(20);
 
   const primeiro = page.locator('main a[href]').first();
   await expect(primeiro).toHaveAttribute('href', new RegExp(`^${PORTFOLIO}/?$`));
@@ -89,6 +106,8 @@ for (const [tema, arquivo] of [['light', `${ANIMACAO}.svg`], ['dark', `${ANIMACA
       const animacao = page.getByAltText(/^Contribuição Pacman/);
       await expect(animacao).toBeVisible();
       await expect.poll(() => animacao.evaluate((img) => img.currentSrc)).toBe(arquivo);
+      // A imagem do tema também carregou (um 404 deixaria a largura em 0)
+      await expect.poll(() => animacao.evaluate((img) => img.complete && img.naturalWidth > 0)).toBe(true);
     });
   });
 }
