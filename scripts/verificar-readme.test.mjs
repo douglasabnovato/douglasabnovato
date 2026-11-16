@@ -37,6 +37,12 @@ test("lista os links https sem repetir", () => {
   assert.deepEqual(links(base + `<a href="${PORTFOLIO}">x</a> [y](https://a.b)`), [PORTFOLIO, "https://a.b"]);
 });
 
+test("lista as imagens do repositório em src e srcset", () => {
+  const raw = "https://raw.githubusercontent.com/u/u/output";
+  const s = `<source srcset="${raw}/a-dark.svg" /><img alt="Animação" src="${raw}/a.svg" /><img alt="Selo" src="https://img.shields.io/x" />`;
+  assert.deepEqual(links(s), [`${raw}/a-dark.svg`, `${raw}/a.svg`]);
+});
+
 test("recusa título que pula nível", () => {
   assert.match(verificar(base + "\n### Seção\n", sempre).join(), /pula de h1 para h3/);
   assert.deepEqual(titulos("# A\n## B\n### C\n## D\n"), []);

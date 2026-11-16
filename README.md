@@ -118,7 +118,12 @@
 
   ## Minha Rotina: 
  
-[![Contribuição Pacman](https://raw.githubusercontent.com/douglasabnovato/douglasabnovato/output/pacman-contribution-graph.svg)](https://github.com/douglasabnovato)
+<a href="https://github.com/douglasabnovato">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/douglasabnovato/douglasabnovato/output/pacman-contribution-graph-dark.svg" />
+    <img alt="Contribuição Pacman: animação do Pac-Man sobre o gráfico de contribuições" src="https://raw.githubusercontent.com/douglasabnovato/douglasabnovato/output/pacman-contribution-graph.svg" />
+  </picture>
+</a>
 
 ---
 

@@ -57,6 +57,8 @@ export function links(s) {
   const urls = new Set();
   for (const m of s.matchAll(/href="(https:[^"]+)"/g)) urls.add(m[1]);
   for (const m of s.matchAll(/\]\((https:[^)\s]+)\)/g)) urls.add(m[1]);
+  // Imagens do próprio repositório (animação clara e escura), que não vêm em link Markdown
+  for (const m of s.matchAll(/(?:src|srcset)="(https:\/\/raw\.githubusercontent\.com\/[^"\s]+)"/g)) urls.add(m[1]);
   return [...urls];
 }
 
