@@ -127,20 +127,21 @@
 
 ---
 
-## Estado e próximos passos (ciclo de 16/11/2026)
+## Estado e próximos passos (revisto em 18/11/2026)
 
 Perfil no ar em https://github.com/douglasabnovato. Nível Estudo (N1): 9 de 10 critérios aplicáveis atendidos, Finalizado: sim. O único parcial é do responsável: confirmar cargo, marcos e selos (#46). Os alertas do Dependabot foram ligados em 16/11/2026 e mostram 0 abertos (15h04), com `npm audit --omit=dev` sem vulnerabilidades. A `master` exige PR e o job `verificar` do CI verde.
 
 **O que foi feito**
 
-- Ciclo de 16/11/2026 (PR da `feature/2026-11-16` para a `developer/sprint-2026-11-19`): axe e teclado no teste Playwright, perfil legível com as imagens fora do ar, títulos em ordem (#48), animação clara e escura e actions da animação fixadas por SHA (#49).
+- Ciclo de 18/11/2026: conferência semanal dos links, com a lista dos que não respondem 200 no resumo do run (#50).
+- Ciclo de 16/11/2026 (na `master` desde 16/11/2026, PRs #62 e #67): axe e teclado no teste Playwright, perfil legível com as imagens fora do ar, títulos em ordem (#48), animação clara e escura e actions da animação fixadas por SHA (#49).
 - Teste de ponta a ponta com Playwright: o README é renderizado pela API do GitHub e o clique leva ao portfólio, no CI (PR #55).
 - Verificador do README com testes: alt descritivo, `noopener`, portfólio no começo e respondendo, documentos e links (PR #51).
 
 **O que queremos fazer**
 
-- Do responsável: mesclar a sprint na `master`, fechar a issue dos alertas do Dependabot, já ligados (#57), fazer o push da animação voltar a passar (#56), confirmar cargo, marcos e selos (#46), validar com uma pessoa de fora (#44) e trocar o link do Discord (#47).
-- Do código: conferir os links toda semana (#50), atualizar a action de publicação da animação (#58), fixar as actions do CI por SHA (#59) e conferir o perfil publicado nos dois temas (#60).
+- Do responsável: fechar a issue dos alertas do Dependabot, já ligados (#57), revisar os PRs de versão das actions (#63, #64 e #65), confirmar cargo, marcos e selos (#46), validar com uma pessoa de fora (#44) e trocar o link do Discord (#47).
+- Do código: a action de publicação da animação em Node 24 (#58, pelo PR #64), as actions do CI fixadas por SHA (#59) e o perfil publicado conferido nos dois temas (#60).
 
 **Onde está a documentação**
 
