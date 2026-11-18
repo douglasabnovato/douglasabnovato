@@ -140,7 +140,7 @@ Perfil no ar em https://github.com/douglasabnovato. Nível Estudo (N1): 9 de 10 
 
 **O que queremos fazer**
 
-- Do responsável: fechar a issue dos alertas do Dependabot, já ligados (#57), revisar os PRs de versão das actions (#63, #64 e #65), confirmar cargo, marcos e selos (#46), validar com uma pessoa de fora (#44) e trocar o link do Discord (#47).
+- Do responsável: mesclar a sprint na `master` (o workflow semanal dos links só roda lá, #50), fechar a issue dos alertas do Dependabot, já ligados (#57), revisar os PRs de versão das actions (#63, #64 e #65), confirmar cargo, marcos e selos (#46), validar com uma pessoa de fora (#44) e trocar o link do Discord (#47).
 - Do código: a action de publicação da animação em Node 24 (#58, pelo PR #64), as actions do CI fixadas por SHA (#59) e o perfil publicado conferido nos dois temas (#60).
 
 **Onde está a documentação**

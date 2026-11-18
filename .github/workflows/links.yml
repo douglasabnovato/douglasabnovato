@@ -30,13 +30,14 @@ jobs:
           codigo=$?
           set -e
           cat saida.txt erros.txt
+          awk -F'\t' 'NF == 2 && $1 != "200" { print "- " $1 " " $2 }' saida.txt > fora.txt
           {
             echo "## Links do perfil"
             echo
-            if awk -F'\t' 'NF == 2 && $1 != "200"' saida.txt | grep -q .; then
+            if [ -s fora.txt ]; then
               echo "Links que não responderam 200:"
               echo
-              awk -F'\t' 'NF == 2 && $1 != "200" { print "- " $1 " " $2 }' saida.txt
+              cat fora.txt
             else
               echo "Todos os links responderam 200."
             fi
