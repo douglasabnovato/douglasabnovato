@@ -28,11 +28,19 @@ gh run list --repo douglasabnovato/douglasabnovato --workflow main.yml --limit 3
 
 As três URLs devem responder 200, e o último run do workflow deve estar verde.
 
+## Links do perfil
+
+O workflow `Links do perfil` (`.github/workflows/links.yml`) roda toda segunda-feira, às 6h de Brasília, e pelo botão **Run workflow**. Ele roda `node scripts/verificar-readme.mjs --rede` e lista no resumo do run os links que não responderam 200. Só o portfólio fora do ar (ou um erro do verificador) faz o run falhar. O agendamento só roda depois que o workflow chega à `master`.
+
+```bash
+gh run list --repo douglasabnovato/douglasabnovato --workflow links.yml --limit 3
+```
+
 ## O que é do responsável
 
 | Passo | Onde | Issue |
 |---|---|---|
 | Mesclar o PR da sprint na `master` | PR com o rótulo `revisao-responsavel` | — |
-| Fazer o push da animação voltar a passar (403 em 16/11/2026) | Settings → Actions → General → **Workflow permissions** | #56 |
-| Ligar os alertas do Dependabot | Settings → Advanced Security → **Dependabot alerts** → **Enable** | #57 |
+| Fazer o push da animação voltar a passar (403 em 16/11/2026) | Feito: os runs na `master` estão verdes desde 16/11/2026 (#56, fechada) | #56 |
+| Ligar os alertas do Dependabot | Feito em 16/11/2026: a API responde com 0 alertas abertos; falta fechar a issue | #57 |
 | Mesclar os PRs de versão do Dependabot | Eles vão direto para a `master` (`target-branch`), e o merge é do responsável, com CI verde | — |

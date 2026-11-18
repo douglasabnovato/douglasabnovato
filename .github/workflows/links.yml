@@ -1,0 +1,50 @@
+# Confere os links do perfil toda semana (#50), sem bloquear o merge.
+# Lista no resumo do run cada link que não respondeu 200. O portfólio fora do ar faz o run falhar.
+# O agendamento só roda na branch padrão (master); no PR, roda quando este arquivo muda.
+name: Links do perfil
+
+on:
+  schedule:
+    - cron: "0 9 * * 1" # segunda-feira, 6h em Brasília
+  workflow_dispatch:
+  pull_request:
+    paths:
+      - .github/workflows/links.yml
+
+permissions:
+  contents: read
+
+jobs:
+  links:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262 # v4.4.0
+      - uses: actions/setup-node@49933ea5288caeca8642d1e84afbd3f7d6820020 # v4.4.0
+        with:
+          node-version: 22
+      - name: Conferir os links do README
+        run: |
+          set +e
+          node scripts/verificar-readme.mjs --rede > saida.txt 2> erros.txt
+          codigo=$?
+          set -e
+          cat saida.txt erros.txt
+          {
+            echo "## Links do perfil"
+            echo
+            if awk -F'\t' 'NF == 2 && $1 != "200"' saida.txt | grep -q .; then
+              echo "Links que não responderam 200:"
+              echo
+              awk -F'\t' 'NF == 2 && $1 != "200" { print "- " $1 " " $2 }' saida.txt
+            else
+              echo "Todos os links responderam 200."
+            fi
+            if [ -s erros.txt ]; then
+              echo
+              echo "Erros do verificador (fazem o run falhar):"
+              echo
+              sed 's/^/- /' erros.txt
+            fi
+          } >> "$GITHUB_STEP_SUMMARY"
+          exit $codigo
