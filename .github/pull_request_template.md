@@ -32,9 +32,11 @@ Marque o que foi conferido. Se um item não se aplica (API, CLI, só documentaç
 - [ ] Responsivo de 360 px a 1440 px, sem rolagem horizontal
 - [ ] Contraste WCAG AA, no tema claro e no escuro quando houver
 - [ ] Estados de hover, foco visível e carregando; navegação por teclado
+- [ ] Alvos de toque com pelo menos 44 px e texto legível em 360 px
+- [ ] Imagens com texto alternativo que diz o que a tela mostra (decorativas com alt vazio)
+- [ ] Sem dado pessoal real nem dado de outro contexto nas telas, nos textos e nos exemplos
 
 ### QA: está garantido?
-- [ ] Testes passando no CI (sem teste pulado)
 - [ ] Lighthouse ≥ 90 em desempenho, acessibilidade e SEO nas páginas tocadas
 - [ ] axe sem violação grave (critical ou serious)
 - [ ] Links funcionando
