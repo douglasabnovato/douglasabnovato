@@ -11,6 +11,13 @@ Fecha #
 <!-- Comandos e passos para quem revisa reproduzir. -->
 1.
 
+## Definição de pronto
+- [ ] Critérios de aceite da issue cumpridos, com a evidência abaixo
+- [ ] Teste automatizado do fluxo alterado rodando no CI, sem `skip`
+- [ ] Lint, testes e build verdes localmente e no CI
+- [ ] `docs/MVP.md` e README atualizados, se a mudança mexe num critério (quando o projeto tem MVP.md)
+- [ ] Publicado e conferido no site, quando há site (até lá, o critério fica "Parcial")
+
 ## Checklist de UX, UI e QA
 Marque o que foi conferido. Se um item não se aplica (API, CLI, só documentação), troque a caixa por **N/A** e diga o motivo na mesma linha.
 
@@ -23,8 +30,8 @@ Marque o que foi conferido. Se um item não se aplica (API, CLI, só documentaç
 ### UI: a tela está consistente e acessível?
 - [ ] Usa os tokens de design do projeto (cor, tipografia, espaço), sem valor solto
 - [ ] Responsivo de 360 px a 1440 px, sem rolagem horizontal
-- [ ] Contraste WCAG AA
-- [ ] Estados de hover, foco visível e carregando
+- [ ] Contraste WCAG AA, no tema claro e no escuro quando houver
+- [ ] Estados de hover, foco visível e carregando; navegação por teclado
 
 ### QA: está garantido?
 - [ ] Testes passando no CI (sem teste pulado)
@@ -34,12 +41,15 @@ Marque o que foi conferido. Se um item não se aplica (API, CLI, só documentaç
 - [ ] Nada quebrou nas outras páginas ou rotas
 
 ## Evidências
-<!-- Prints em 360 px e 1440 px quando há tela; a saída dos testes, do Lighthouse e do axe, com a data. -->
+<!-- Comando, data e resultado (ex.: "npm test: 13 testes, 0 falhas, 20/11/2026"). Prints em 360 px e 1440 px quando há tela. -->
 
 | Tamanho | Antes | Depois |
 |---|---|---|
 | 360 px | | |
 | 1440 px | | |
+
+## Fluxo
+- [ ] `feature/AAAA-MM-DD` → `developer/sprint-<quinta>`. A principal só recebe a sprint.
 
 ## Revisão
 - [ ] Quem revisa deixou um comentário dizendo o que conferiu antes do merge
